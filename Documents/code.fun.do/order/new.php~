@@ -1,0 +1,25 @@
+<?php
+session_start();
+$host = 'localhost';
+$user = 'root';
+$pass = "";
+$db = 'canteen';
+$mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
+if ( $_SESSION['logged_in'] != 1 ) {
+  $_SESSION['message'] = "You must log in before viewing your profile page!";
+  header("location: error.php");    
+}
+else {
+    // Makes it easier to read
+    $enroll = $_SESSION['enroll'];
+    //$email = $_SESSION['email'];
+    //$active = $_SESSION['active'];
+}
+if(empty($_POST['test']))
+{echo "name req";}
+
+$str=$_POST['test'];
+$stri=serialize($str);
+$result_insert = $mysqli->query("INSERT INTO orders(orders,enroll) VALUES('$stri','$enroll')");
+
+?>
