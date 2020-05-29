@@ -1,0 +1,20 @@
+%
+;move RC servo connected to pin 1 to 100% and back
+;  M63 arguments:
+;    M63 P<pin> R<rcservo>
+
+#1 = 0
+o100 while[#1 LE 100]
+	M63 P1 R#1
+	G04 P0.01
+  #1 = [#1 + 1]
+o100 endwhile
+
+o100 while[#1 GE 0]
+	M63 P1 R#1
+	G04 P0.01
+  #1 = [#1 - 1]
+o100 endwhile
+
+M63 P1 Q0
+%

@@ -1,0 +1,14 @@
+%
+;send characters 'PlanetCNC' to Ext1 one at the time, data length is 10 bytes
+;  M64 arguments:
+;    M64 H<ssel> Q<param> E<count> [L<length>]
+;    M64 H<ssel> Q<param> E<count> [L<length>] R<return> D<length>
+
+(arrchr,3000,PlanetCNC)
+#1 = 0
+o100 while [#1 LT #3000]
+  M64 H1 Q[#[3001+#1]] L10
+  G04 P1
+  #1 = [#1 + 1]
+o100 endwhile
+%

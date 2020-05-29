@@ -1,0 +1,141 @@
+name "Tools"
+
+label "Tool" colorname=#ffa500
+param _selected_tool 0 "Selected Tool"
+param _current_tool 0 "Current Tool"
+
+---
+param _tooloff B "Tool Offset"
+param _tooloff_x 3 "Tool Offset X"
+param _tooloff_y 3 "Tool Offset Y"
+param _tooloff_z 3 "Tool Offset Z"
+param _tooloff_a 3 "Tool Offset A"
+param _tooloff_b 3 "Tool Offset B"
+param _tooloff_c 3 "Tool Offset C"
+param _tooloff_u 3 "Tool Offset U"
+param _tooloff_v 3 "Tool Offset V"
+param _tooloff_w 3 "Tool Offset W"
+
+---
+param _toolcomp 0 "Tool Comp (R)"
+param _toolcomp_dia 3 "Tool Comp Diameter (R)"
+param _toolcomp_orient 0 "Tool Comp Orient (R)"
+
+---
+label "Tool Table" colorname=#ffa500
+label "Selected Tool"
+param _tool_exists|_selected_tool B "Selected Tool Exists (R)"
+---
+param _tool_dia_num|_selected_tool 3 "Selected Tool Diameter (R)"
+param _tool_off_x_num|_selected_tool 3 "Selected Tool Offset X (R)"
+param _tool_off_y_num|_selected_tool 3 "Selected Tool Offset Y (R)"
+param _tool_off_z_num|_selected_tool 3 "Selected Tool Offset Z (R)"
+param _tool_off_a_num|_selected_tool 3 "Selected Tool Offset A (R)"
+param _tool_off_b_num|_selected_tool 3 "Selected Tool Offset B (R)"
+param _tool_off_c_num|_selected_tool 3 "Selected Tool Offset C (R)"
+param _tool_off_u_num|_selected_tool 3 "Selected Tool Offset U (R)"
+param _tool_off_v_num|_selected_tool 3 "Selected Tool Offset V (R)"
+param _tool_off_w_num|_selected_tool 3 "Selected Tool Offset W (R)"
+---
+param _tool_tc_x_num|_selected_tool 3 "Selected Tool TC X (R)"
+param _tool_tc_y_num|_selected_tool 3 "Selected Tool TC Y (R)"
+param _tool_tc_z_num|_selected_tool 3 "Selected Tool TC Z (R)"
+param _tool_tc_a_num|_selected_tool 3 "Selected Tool TC A (R)"
+param _tool_tc_b_num|_selected_tool 3 "Selected Tool TC B (R)"
+param _tool_tc_c_num|_selected_tool 3 "Selected Tool TC C (R)"
+param _tool_tc_u_num|_selected_tool 3 "Selected Tool TC U (R)"
+param _tool_tc_v_num|_selected_tool 3 "Selected Tool TC V (R)"
+param _tool_tc_w_num|_selected_tool 3 "Selected Tool TC W (R)"
+---
+param _tool_so_x_num|_selected_tool 3 "Selected Tool SenOff X (R)"
+param _tool_so_y_num|_selected_tool 3 "Selected Tool SenOff Y (R)"
+param _tool_so_z_num|_selected_tool 3 "Selected Tool SenOff Z (R)"
+---
+param _tool_skipmeasure_num|_selected_tool B "Selected Tool Skip Measure (R)"
+param _tool_skipchange_num|_selected_tool B "Selected Tool Skip Change (R)"
+
+---
+label "Current Tool"
+param _tool_exists|_current_tool B "Current Tool Exists (R)"
+---
+param _tool_dia_num|_current_tool 3 "Current Tool Diameter (R)"
+param _tool_off_x_num|_current_tool 3 "Current Tool Offset X (R)"
+param _tool_off_y_num|_current_tool 3 "Current Tool Offset Y (R)"
+param _tool_off_z_num|_current_tool 3 "Current Tool Offset Z (R)"
+param _tool_off_a_num|_current_tool 3 "Current Tool Offset A (R)"
+param _tool_off_b_num|_current_tool 3 "Current Tool Offset B (R)"
+param _tool_off_c_num|_current_tool 3 "Current Tool Offset C (R)"
+param _tool_off_u_num|_current_tool 3 "Current Tool Offset U (R)"
+param _tool_off_v_num|_current_tool 3 "Current Tool Offset V (R)"
+param _tool_off_w_num|_current_tool 3 "Current Tool Offset W (R)"
+---
+param _tool_tc_x_num|_current_tool 3 "Current Tool TC X (R)"
+param _tool_tc_y_num|_current_tool 3 "Current Tool TC Y (R)"
+param _tool_tc_z_num|_current_tool 3 "Current Tool TC Z (R)"
+param _tool_tc_a_num|_current_tool 3 "Current Tool TC A (R)"
+param _tool_tc_b_num|_current_tool 3 "Current Tool TC B (R)"
+param _tool_tc_c_num|_current_tool 3 "Current Tool TC C (R)"
+param _tool_tc_u_num|_current_tool 3 "Current Tool TC U (R)"
+param _tool_tc_v_num|_current_tool 3 "Current Tool TC V (R)"
+param _tool_tc_w_num|_current_tool 3 "Current Tool TC W (R)"
+---
+---
+label "Tool 1"
+param _tool_exists|1 B "Tool 1 Exists (R)"
+param _tool_name|1 0 "Tool 1 Name (R)"
+---
+param _tool_dia_num|1 3 "Tool 1 Diameter (R)"
+param _tool_off_x_num|1 3 "Tool 1 Offset X (R)"
+param _tool_off_y_num|1 3 "Tool 1 Offset Y (R)"
+param _tool_off_z_num|1 3 "Tool 1 Offset Z (R)"
+param _tool_off_a_num|1 3 "Tool 1 Offset A (R)"
+param _tool_off_b_num|1 3 "Tool 1 Offset B (R)"
+param _tool_off_c_num|1 3 "Tool 1 Offset C (R)"
+param _tool_off_u_num|1 3 "Tool 1 Offset U (R)"
+param _tool_off_v_num|1 3 "Tool 1 Offset V (R)"
+param _tool_off_w_num|1 3 "Tool 1 Offset W (R)"
+
+param _tool_front_num|1 2 "Tool 1 Front (R)"
+param _tool_back_num|1 2 "Tool 1 Back (R)"
+param _tool_orient_num|1 0 "Tool 1 Orient (R)"
+
+---
+label "Tool 2"
+param _tool_exists|2 B "Tool 2 Exists (R)"
+param _tool_name|2 0 "Tool 2 Name (R)"
+---
+param _tool_dia_num|2 3 "Tool 2 Diameter (R)"
+param _tool_off_x_num|2 3 "Tool 2 Offset X (R)"
+param _tool_off_y_num|2 3 "Tool 2 Offset Y (R)"
+param _tool_off_z_num|2 3 "Tool 2 Offset Z (R)"
+param _tool_off_a_num|2 3 "Tool 2 Offset A (R)"
+param _tool_off_b_num|2 3 "Tool 2 Offset B (R)"
+param _tool_off_c_num|2 3 "Tool 2 Offset C (R)"
+param _tool_off_u_num|2 3 "Tool 2 Offset U (R)"
+param _tool_off_v_num|2 3 "Tool 2 Offset V (R)"
+param _tool_off_w_num|2 3 "Tool 2 Offset W (R)"
+
+param _tool_front_num|2 2 "Tool 2 Front (R)"
+param _tool_back_num|2 2 "Tool 2 Back (R)"
+param _tool_orient_num|2 0 "Tool 2 Orient (R)"
+
+---
+label "Tool 3"
+param _tool_exists|3 B "Tool 3 Exists (R)"
+param _tool_name|3 0 "Tool 3 Name (R)"
+---
+param _tool_dia_num|3 3 "Tool 3 Diameter (R)"
+param _tool_off_x_num|3 3 "Tool 3 Offset X (R)"
+param _tool_off_y_num|3 3 "Tool 3 Offset Y (R)"
+param _tool_off_z_num|3 3 "Tool 3 Offset Z (R)"
+param _tool_off_a_num|3 3 "Tool 3 Offset A (R)"
+param _tool_off_b_num|3 3 "Tool 3 Offset B (R)"
+param _tool_off_c_num|3 3 "Tool 3 Offset C (R)"
+param _tool_off_u_num|3 3 "Tool 3 Offset U (R)"
+param _tool_off_v_num|3 3 "Tool 3 Offset V (R)"
+param _tool_off_w_num|3 3 "Tool 3 Offset W (R)"
+
+param _tool_front_num|3 2 "Tool 3 Front (R)"
+param _tool_back_num|3 2 "Tool 3 Back (R)"
+param _tool_orient_num|3 0 "Tool 3 Orient (R)"
+

@@ -1,0 +1,95 @@
+name "Measure"
+io custom name="Input:" led="I2,I1"
+
+label "Probe" colorname=#ffa500
+param _probe_pin_1 0 "Probe 1 Pin"
+param _probe_pin_2 0 "Probe 2 Pin"
+---
+param _probe_speed 3 "Speed"
+param _probe_speed_low 3 "Speed Low"
+param _probe_swdist 3 "Switch Distance"
+---
+param _probe_sizeZ 3 "Size Z"
+param _probe_sizeXY 3 "Size XY"
+param _probe_size_axis|2 3 "Size Axis Z"
+---
+param _probe_safeheight 3 "Safe Height"
+
+---
+label "Home" colorname=#ffa500
+io limit
+param _home_speed 3 "Speed"
+param _home_speed_low 3 "Speed Low"
+param _home_swdist 3 "Switch Distance"
+---
+label "Order"
+param _home_order_x 0 "Order X"
+param _home_order_y 0 "Order Y"
+param _home_order_z 0 "Order Z"
+param _home_order_a 0 "Order A"
+param _home_order_b 0 "Order B"
+param _home_order_c 0 "Order C"
+param _home_order_u 0 "Order U"
+param _home_order_v 0 "Order V"
+param _home_order_w 0 "Order W"
+---
+label "Direction" 
+param _home_dir_x 0 "Dir X"
+param _home_dir_y 0 "Dir Y"
+param _home_dir_z 0 "Dir Z"
+param _home_dir_a 0 "Dir A"
+param _home_dir_b 0 "Dir B"
+param _home_dir_c 0 "Dir C"
+param _home_dir_u 0 "Dir U"
+param _home_dir_v 0 "Dir V"
+param _home_dir_w 0 "Dir W"
+---
+label "Switch Position" 
+param _home_swpos_x 3 "SwPos X"
+param _home_swpos_y 3 "SwPos Y"
+param _home_swpos_z 3 "SwPos Z"
+param _home_swpos_a 3 "SwPos A"
+param _home_swpos_b 3 "SwPos B"
+param _home_swpos_c 3 "SwPos C"
+param _home_swpos_u 3 "SwPos U"
+param _home_swpos_v 3 "SwPos V"
+param _home_swpos_w 3 "SwPos W"
+---
+label "Move To" 
+param _home_moveto_x 3 "MoveTo X"
+param _home_moveto_y 3 "MoveTo Y"
+param _home_moveto_z 3 "MoveTo Z"
+param _home_moveto_a 3 "MoveTo A"
+param _home_moveto_b 3 "MoveTo B"
+param _home_moveto_c 3 "MoveTo C"
+param _home_moveto_u 3 "MoveTo U"
+param _home_moveto_v 3 "MoveTo V"
+param _home_moveto_w 3 "MoveTo W"
+
+---
+label "Work Offset" colorname=#ffa500
+param _workoff_speed 3 "Speed"
+param _workoff_speed_low 3 "Speed Low"
+param _workoff_swdist 3 "Switch Distance"
+---
+param _workoff_size 3 "Size"
+
+---
+label "Tool Offset" colorname=#ffa500
+param _tooloff_speed 3 "Speed"
+param _tooloff_speed_low 3 "Speed Low"
+param _tooloff_swdist 3 "Switch Distance"
+---
+param _tooloff_safeheight 3 "Safe Height"
+param _tooloff_sensorX 3 "Sensor Pos X"
+param _tooloff_sensorY 3 "Sensor Pos Y"
+param _tooloff_sensorZ 3 "Sensor Pos Z"
+
+---
+label "Gantry Square" colorname=#ffa500
+param _gantrysquare_speed 3 "Speed"
+param _gantrysquare_axis 0 "Sensor Pos Z"
+param _gantrysquare_dir 0 "Direction"
+param _gantrysquare_move_u 3 "Move U"
+param _gantrysquare_move_v 3 "Move V"
+

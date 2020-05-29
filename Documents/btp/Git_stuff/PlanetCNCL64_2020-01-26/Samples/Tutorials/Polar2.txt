@@ -1,0 +1,13 @@
+%
+;Example 2: Polar coordinates in absolute mode
+G17 G21 G90 
+G00 X0 Y0 
+G01 @30 ^90
+ ^180
+ ^270
+ ^0
+ ^90
+G00 X0 Y0 
+%
+
+

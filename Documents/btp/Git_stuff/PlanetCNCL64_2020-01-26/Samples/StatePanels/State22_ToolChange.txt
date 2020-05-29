@@ -1,0 +1,82 @@
+name "Tool Change"
+
+label "Tool Change" colorname=#ffa500
+param _tc_enable B "Enabled"
+param _tc_skipsame B "Skip Same"
+param _tc_safeheight_en B "Safe Height Enabled"
+param _tc_safeheight 3 "Safe Height"
+param _tc_pos_en B "Position Enabled"
+param _tc_pos_x 3 "Position X"
+param _tc_pos_y 3 "Position Y"
+param _tc_pos_z 3 "Position Z"
+param _tc_action 0 "Action"
+param _tc_toolmeasure B "Measure"
+param _tc_tooloff_en B "Offset"
+param _tc_autoreturn B "Autoreturn"
+
+---
+label "ATC" colorname=#ffa500
+param _tc_atc_en B "ATC"
+param _tc_atc_speed 3 "Speed 1"
+param _tc_atc_speed2 3 "Speed 2"
+
+---
+label "Unload"
+param _tc_unload_in1_x 3 "Unload In 1 X"
+param _tc_unload_in1_y 3 "Unload In 1 Y"
+param _tc_unload_in1_z 3 "Unload In 1 Z"
+---
+param _tc_unload_in2_x 3 "Unload In 2 X"
+param _tc_unload_in2_y 3 "Unload In 2 Y"
+param _tc_unload_in2_z 3 "Unload In 2 Z"
+---
+param _tc_unload_pin1 0 "Unload Pin 1"
+param _tc_unload_pin1set1 0 "Unload Pin 1 Set1"
+param _tc_unload_pin1delay1 1 "Unload Pin 1 Delay1"
+param _tc_unload_pin1set2 0 "Unload Pin 1 Set2"
+param _tc_unload_pin1delay2 1 "Unload Pin 1 Delay2"
+---
+param _tc_unload_pin2 0 "Unload Pin 2"
+param _tc_unload_pin2set1 0 "Unload Pin 2 Set1"
+param _tc_unload_pin2delay1 1 "Unload Pin 2 Delay1"
+param _tc_unload_pin2set2 0 "Unload Pin 2 Set2"
+param _tc_unload_pin2delay2 1 "Unload Pin 2 Delay2"
+---
+param _tc_unload_out1_x 3 "Unload Out 1 X"
+param _tc_unload_out1_y 3 "Unload Out 1 Y"
+param _tc_unload_out1_z 3 "Unload Out 1 Z"
+---
+param _tc_unload_out2_x 3 "Unload Out 2 X"
+param _tc_unload_out2_y 3 "Unload Out 2 Y"
+param _tc_unload_out2_z 3 "Unload Out 2 Z"
+
+---
+label "Load"
+param _tc_load_in1_x 3 "Load In 1 X"
+param _tc_load_in1_y 3 "Load In 1 Y"
+param _tc_load_in1_z 3 "Load In 1 Z"
+---
+param _tc_load_in2_x 3 "Load In 2 X"
+param _tc_load_in2_y 3 "Load In 2 Y"
+param _tc_load_in2_z 3 "Load In 2 Z"
+---
+param _tc_load_pin1 0 "Load Pin 1"
+param _tc_load_pin1set1 0 "Load Pin 1 Set1"
+param _tc_load_pin1delay1 1 "Load Pin 1 Delay1"
+param _tc_load_pin1set2 0 "Load Pin 1 Set2"
+param _tc_load_pin1delay2 1 "Load Pin 1 Delay2"
+---
+param _tc_load_pin2 0 "Load Pin 2"
+param _tc_load_pin2set1 0 "Load Pin 2 Set1"
+param _tc_load_pin2delay1 1 "Load Pin 2 Delay1"
+param _tc_load_pin2set2 0 "Load Pin 2 Set2"
+param _tc_load_pin2delay2 1 "Load Pin 2 Delay2"
+---
+param _tc_load_out1_x 3 "Load Out 1 X"
+param _tc_load_out1_y 3 "Load Out 1 >"
+param _tc_load_out1_z 3 "Load Out 1 Z"
+---
+param _tc_load_out2_x 3 "Load Out 2 X"
+param _tc_load_out2_y 3 "Load Out 2 Y"
+param _tc_load_out2_z 3 "Load Out 2 Z"
+

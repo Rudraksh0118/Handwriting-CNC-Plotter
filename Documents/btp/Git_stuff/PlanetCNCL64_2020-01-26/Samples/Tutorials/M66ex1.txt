@@ -1,0 +1,51 @@
+%
+;this example operates 4x20 LCD display with BV4619 LCD controller
+;  M66 arguments:
+;    M66 H<address> Q<data> E<length>
+;    M66 H<address> Q<data> E<length> R<return> D<length>
+
+#3001 = 2
+#3002 = 1
+M66 H114 Q3001 E2 ;Clear screen 
+G04 P0.1
+
+#3001 = 2
+#3002 = 12
+M66 H114 Q3001 E2 ;Make cursor invisible
+
+(arrchr,3000,XPlanetCNC ControllerX)
+#[3000+#3000] = 13
+#3001 = 3
+M66 H114 Q3001 E#3000
+
+#3001 = 2
+#3002 = [128+64]
+M66 H114 Q3001 E2 ;Set cursor position to line 2
+
+(arrchr,3000,XX = #<_x>X)
+#[3000+#3000] = 13
+#3001 = 3
+M66 H114 Q3001 E#3000
+
+#3001 = 2
+#3002 = [128+20]
+M66 H114 Q3001 E2 ;Set cursor position to line 3
+
+(arrchr,3000,XY = #<_y>X)
+#[3000+#3000] = 13
+#3001 = 3
+M66 H114 Q3001 E#3000
+
+#3001 = 2
+#3002 = [128+84]
+M66 H114 Q3001 E2 ;Set cursor position to line 4
+
+(arrchr,3000,XZ = #<_z>X)
+#[3000+#3000] = 13
+#3001 = 3
+M66 H114 Q3001 E#3000
+
+#3001 = 4
+M66 H114 Q3001 E1 R4000 D1 ;Read keypad value
+(print,#4000)
+%

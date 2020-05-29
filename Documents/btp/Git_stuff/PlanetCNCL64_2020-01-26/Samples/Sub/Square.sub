@@ -1,0 +1,8 @@
+O<square> sub
+M73
+G00 X-[#1] Y-[#1]
+G01 X-[#1] Y[#1]
+G01 X[#1] Y[#1]
+G01 X[#1] Y-[#1]
+G01 X-[#1] Y-[#1]
+O<square> endsub

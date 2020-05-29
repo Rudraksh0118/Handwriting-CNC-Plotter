@@ -1,0 +1,13 @@
+%
+;Example 7: Polar mode in absolute mode on ZX plane
+G18 G21 G90 
+G00 Z0 X0 
+G16
+G01 Z30 X90
+Z30 X180
+Z30 X270
+Z30 X0
+Z30 X90
+G15
+G00 Z0 X0 
+%

@@ -1,0 +1,8 @@
+%
+;sends string 'PlanetCNC Controller' to TX serial pin
+;  M65 arguments:
+;    M65 Q<data> E<length>
+
+(arrchr,3000,PlanetCNC Controller)
+M65 Q3001 E#3000
+%

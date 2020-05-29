@@ -1,0 +1,10 @@
+%
+; Line with '/' will execute only if 'Optional Block' option is enabled
+G00 X0 Y0
+G01 X0 Y30
+G01 X22 Y30
+/G01 X30 Y30
+G01 X30 Y22
+G01 X30 Y0
+G01 X0 Y0
+%

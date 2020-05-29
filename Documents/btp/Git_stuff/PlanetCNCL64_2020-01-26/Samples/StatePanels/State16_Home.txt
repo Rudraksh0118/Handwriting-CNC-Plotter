@@ -1,0 +1,24 @@
+name "Home"
+
+label "Home G28" colorname=#ffa500
+param _home1_x 3 "Home 1 X"
+param _home1_y 3 "Home 1 Y"
+param _home1_z 3 "Home 1 Z"
+param _home1_a 3 "Home 1 A"
+param _home1_b 3 "Home 1 B"
+param _home1_c 3 "Home 1 C"
+param _home1_u 3 "Home 1 U"
+param _home1_v 3 "Home 1 V"
+param _home1_w 3 "Home 1 W"
+
+---
+label "Home G30" colorname=#ffa500
+param _home2_x 3 "Home 2 X"
+param _home2_y 3 "Home 2 Y"
+param _home2_z 3 "Home 2 Z"
+param _home2_a 3 "Home 2 A"
+param _home2_b 3 "Home 2 B"
+param _home2_c 3 "Home 2 C"
+param _home2_u 3 "Home 2 U"
+param _home2_v 3 "Home 2 V"
+param _home2_w 3 "Home 2 W"

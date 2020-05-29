@@ -1,0 +1,7 @@
+%
+;set PWM on pin 6 to 50% duty cycle at 10kHz
+;  M63 arguments:
+;    M63 P<pin> Q<frequency> E<duty>
+
+M63 P6 Q10000 E50.0
+%

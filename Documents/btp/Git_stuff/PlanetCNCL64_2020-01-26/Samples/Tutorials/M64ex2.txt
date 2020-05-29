@@ -1,0 +1,22 @@
+%
+;Ext1 output 'running light'
+;  M64 arguments:
+;    M64 H<ssel> P<pin> Q<state> [L<length>]
+
+#1 = 1
+o100 while [#1 LE 32]
+  M64 H1 P#1 Q1 L10
+  G04 P0.1
+  #1 = [#1 + 1]
+o100 endwhile
+
+#1 = 1
+o100 while [#1 LE 32]
+  M64 H1 P#1 Q0 L10
+  G04 P0.1
+  #1 = [#1 + 1]
+o100 endwhile
+
+M64 H1 Q0 L10
+%
+

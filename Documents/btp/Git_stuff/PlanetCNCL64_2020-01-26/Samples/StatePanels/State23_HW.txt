@@ -1,0 +1,175 @@
+name "HW"
+
+label "HW" colorname=#ffa500
+param _hw_isinit B "Is Initialized (R)"
+param _hw_serial 0 "Serial (R)"
+param _hw_version 0 "HW Version (R)"
+param _sw_version 0 "SW Version (R)"
+
+---
+label "Buffer" colorname=#ffa500
+param _hw_buffavail 0 "Available (R)"
+param _hw_buffempty B "Empty (R)"
+param _hw_buffutil 2 "Utilization (R)"
+
+---
+label "Cmd" colorname=#ffa500
+param _hw_cmdbufffull 0 "Full (R)"
+param _hw_cmdbufffree 0 "Free (R)"
+param _hw_cmdbuffunread 0 "Unread (R)"
+
+---
+label "State" colorname=#ffa500
+param _hw_idle B "Idle (R)"
+param _hw_estop B "EStop (R)" color=#ff0000
+param _hw_stop B "Stop (R)" color=#0000ff
+param _hw_pause B "Pause (R)" color=#ffff00
+
+---
+label "Speeds" colorname=#ffa500
+param _hw_speed 2 "Speed (R)"
+param _hw_accel 2 "Acceleration (R)"
+---
+param _hw_spindle 2 "Spindle (R)"
+param _hw_spindle_dir 0 "Spindle Dir (R)"
+---
+param _hw_mist 0 "Mist (R)"
+param _hw_flood 0 "Flood (R)"
+
+---
+label "Options" colorname=#ffa500
+param _hw_ovrdspeed_enabled B "Speed Ovrd Enabled (R)"
+param _hw_ovrdspindle_enabled B "Spindle Ovrd Enabled (R)"
+
+---
+label "Motor Position" colorname=#ffa500
+param _hw_motor_x 3 "Motor X (R)"
+param _hw_motor_y 3 "Motor Y (R)"
+param _hw_motor_z 3 "Motor Z (R)"
+param _hw_motor_a 3 "Motor A (R)"
+param _hw_motor_b 3 "Motor B (R)"
+param _hw_motor_c 3 "Motor C (R)"
+param _hw_motor_u 3 "Motor U (R)"
+param _hw_motor_v 3 "Motor V (R)"
+param _hw_motor_w 3 "Motor W (R)"
+
+---
+label "Work Position" colorname=#ffa500
+param _hw_work_x 3 "Work X (R)"
+param _hw_work_y 3 "Work Y (R)"
+param _hw_work_z 3 "Work Z (R)"
+param _hw_work_a 3 "Work A (R)"
+param _hw_work_b 3 "Work B (R)"
+param _hw_work_c 3 "Work C (R)"
+param _hw_work_u 3 "Work U (R)"
+param _hw_work_v 3 "Work V (R)"
+param _hw_work_w 3 "Work W (R)"
+
+---
+param _hw_srcidx 0 "SrcIdx (R)"
+param _hw_linenum 0 "LineNum (R)"
+
+
+---
+label "IO" colorname=#ffa500
+io output
+param _hw_output X "Output Hex (R)"
+param _hw_output 0 "Output (R)"
+param _hw_output_num|1 B "Output 1 (R)"
+param _hw_output_num|2 B "Output 2 (R)"
+param _hw_output_num|3 B "Output 3 (R)"
+param _hw_output_num|4 B "Output 4 (R)"
+param _hw_output_num|5 B "Output 5 (R)"
+param _hw_output_num|6 B "Output 6 (R)"
+param _hw_output_num|7 B "Output 7 (R)"
+param _hw_output_num|8 B "Output 8 (R)"
+---
+param _hw_output_freq1 0 "Output 1 Freq (R)"
+param _hw_output_duty1 0 "Output 1 Duty (R)"
+param _hw_output_freq2 0 "Output 2 Freq (R)"
+param _hw_output_duty2 0 "Output 2 Duty (R)"
+param _hw_output_freq3 0 "Output 3 Freq (R)"
+param _hw_output_duty3 0 "Output 3 Duty (R)"
+
+io input
+param _hw_input X "Input Hex (R)"
+param _hw_input 0 "Input (R)"
+param _hw_input_num|1 B "Input 1 (R)"
+param _hw_input_num|2 B "Input 2 (R)"
+param _hw_input_num|3 B "Input 3 (R)"
+param _hw_input_num|4 B "Input 4 (R)"
+param _hw_input_num|5 B "Input 5 (R)"
+param _hw_input_num|6 B "Input 6 (R)"
+param _hw_input_num|7 B "Input 7 (R)"
+param _hw_input_num|8 B "Input 8 (R)"
+
+io limit
+param _hw_limit X "Limit Hex(R)"
+param _hw_limit 0 "Limit (R)"
+param _hw_limit_num|1 B "Limit 1 (R)"
+param _hw_limit_num|2 B "Limit 2 (R)"
+param _hw_limit_num|3 B "Limit 3 (R)"
+param _hw_limit_num|4 B "Limit 4 (R)"
+param _hw_limit_num|5 B "Limit 5 (R)"
+param _hw_limit_num|6 B "Limit 6 (R)"
+param _hw_limit_num|7 B "Limit 7 (R)"
+param _hw_limit_num|8 B "Limit 8 (R)"
+
+io jog
+param _hw_jog X "Jog Hex(R)"
+param _hw_jog 0 "Jog (R)"
+param _hw_jogpot 0 "JogPot (R)"
+
+io ctrl
+param _hw_ctrl X "Ctrl Hex(R)"
+param _hw_ctrl 0 "Ctrl (R)"
+
+io aux
+param _hw_aux1 0 "Aux1 (R)"
+param _hw_aux2 0 "Aux2 (R)"
+param _hw_aux3 0 "Aux3 (R)"
+param _hw_aux4 0 "Aux4 (R)"
+
+io extin1
+param _hw_extin1 0 "ExtIn1 (R)"
+io extin2
+param _hw_extin2 0 "ExtIn2 (R)"
+io extout1
+param _hw_extout1 0 "ExtOut1 (R)"
+io extout2
+param _hw_extout2 0 "ExtOut2 (R)"
+
+io custom name="HW EStop" led="C1"
+io custom name="" led="ER,MT,LM"
+param _hw_error B "Error (R)"
+param _hw_motors_en B "Motors Enable (R)"
+param _hw_limits_en B "Limits Enable (R)"
+param _hw_axislock 0 "Axis lock (R)"
+
+---
+label "Encoders" colorname=#ffa500
+param _hw_ctrlspindleidx_rpm 0 "Ctrl Spindle Idx RPM (R)"
+param _hw_ctrlspindleidx_val 0 "Ctrl Spindle Idx (R)"
+---
+param _hw_ctrlspindle_rpm 0 "Ctrl Spindle RPM (R)"
+param _hw_ctrlspindle_dir 0 "Ctrl Spindle Dir (R)"
+param _hw_ctrlspindle_val 0 "Ctrl Spindle (R)"
+---
+param _hw_ctrlenc_rpm 0 "Ctrl Enc RPM (R)"
+param _hw_ctrlenc_dir 0 "Ctrl Enc Dir (R)"
+param _hw_ctrlenc_val 0 "Ctrl Enc (R)"
+---
+param _hw_ctrlmpg_rpm 0 "Ctrl Mpg RPM (R)"
+param _hw_ctrlmpg_dir 0 "Ctrl Mpg Dir (R)"
+param _hw_ctrlmpg_val 0 "Ctrl Mpg (R)"
+param _hw_ctrlmpg_velocity 2 "Ctrl Mpg Velocity(R)"
+
+---
+label "Handwheel" colorname=#ffa500
+param _hw_mpg_mode 0 "Mpg Mode (R)"
+param _hw_mpg_axis 0 "Mpg Axis (R)"
+param _hw_mpg_key 0 "Mpg Key(R)"
+param _hw_mpg_delta 0 "Mpg Delta(R)"
+param _hw_mpg_value 0 "Mpg Value(R)"
+param _hw_mpg_axisnum 0 "Mpg Axis Num(R)"
+param _hw_mpg_velocity 2 "Mpg Velocity(R)"

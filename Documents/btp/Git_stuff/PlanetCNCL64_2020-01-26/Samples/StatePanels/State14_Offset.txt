@@ -1,0 +1,65 @@
+name "Offset"
+
+label "Work Offset" colorname=#ffa500
+param _workoff B "Work Offset (R)"
+param _workoff_x 3 "Work Offset X"
+param _workoff_y 3 "Work Offset Y"
+param _workoff_z 3 "Work Offset Z"
+param _workoff_a 3 "Work Offset A"
+param _workoff_b 3 "Work Offset B"
+param _workoff_c 3 "Work Offset C"
+param _workoff_u 3 "Work Offset U"
+param _workoff_v 3 "Work Offset V"
+param _workoff_w 3 "Work Offset W"
+---
+param _workoff_axis|0 3 "Work Offset Axis X"
+param _workoff_axis|1 3 "Work Offset Axis Y"
+param _workoff_axis|2 3 "Work Offset Axis Z"
+
+---
+label "Axis Offset" colorname=#ffa500
+param _axisoff B "Axis Offset (R)"
+param _axisoff_x 3 "Axis Offset X"
+param _axisoff_y 3 "Axis Offset Y"
+param _axisoff_z 3 "Axis Offset Z"
+param _axisoff_a 3 "Axis Offset A"
+param _axisoff_b 3 "Axis Offset B"
+param _axisoff_c 3 "Axis Offset C"
+param _axisoff_u 3 "Axis Offset U"
+param _axisoff_v 3 "Axis Offset V"
+param _axisoff_w 3 "Axis Offset W"
+
+---
+label "Axis Scale" colorname=#ffa500
+param _axisscale B "Axis Scale (R)"
+param _axisscale_x 3 "Center X"
+param _axisscale_y 3 "Center Y"
+param _axisscale_z 3 "Center Z"
+param _axisscale_i 3 "Scale Ixyz"
+param _axisscale_j 3 "Scale Jxyz"
+param _axisscale_k 3 "Scale Kxyz"
+
+param _axisscale_u 3 "Center U"
+param _axisscale_v 3 "Center V"
+param _axisscale_w 3 "Center W"
+param _axisscale_iuvw 3 "Scale Iuvw"
+param _axisscale_juvw 3 "Scale Juvw"
+param _axisscale_kuvw 3 "Scale Kuvw"
+
+---
+label "Axis Rotation" colorname=#ffa500
+param _axisrot B "Axis Rotation (R)"
+param _axisrot_x 3 "Center X"
+param _axisrot_y 3 "Center Y"
+param _axisrot_z 3 "Center Z"
+param _axisrot_ang 3 "Angle XYZ"
+
+param _axisrot_u 3 "Center U"
+param _axisrot_v 3 "Center V"
+param _axisrot_w 3 "Center W"
+param _axisrot_anguvw 3 "Angle UVW
+
+---
+label "Camera Offset" colorname=#ffa500
+param _cam_offset_x 3 "Offset X (R)"
+param _cam_offset_y 3 "Offset Y (R)"

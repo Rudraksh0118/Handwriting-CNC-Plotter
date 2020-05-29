@@ -1,0 +1,22 @@
+%
+;output pin 'running light'
+;  M62 arguments:
+;    M62 P<pin> Q<value>
+
+#1 = 0
+o100 while [#1 LT 8]
+  M62 P#1 Q0
+  #1 = [#1 + 1]  
+  M62 P#1 Q1 
+  G04 P0.5
+o100 endwhile
+
+o100 while [#1 GT 1]
+  M62 P#1 Q0
+  #1 = [#1 - 1]  
+  M62 P#1 Q1  
+  G04 P0.5
+o100 endwhile
+
+M62 Q0
+%

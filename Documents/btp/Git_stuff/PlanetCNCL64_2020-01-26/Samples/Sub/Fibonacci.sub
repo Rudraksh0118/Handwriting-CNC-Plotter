@@ -1,0 +1,25 @@
+;O<Fibonacci> call [9] ;1 1 2 3 5 8 13 21 34
+
+O<Fibonacci> sub
+	#<n> = #1
+	#<a> = 0
+	#<b> = 1
+	#<c> = 0
+				
+  O<if> if [#<n> GE 0]
+		(print,#<a,0>)
+	O<if> endif
+	  
+	O<if> if [#<n> GE 1]
+		(print,#<b,0>)
+	O<if> endif
+	
+	#<i> = 2
+	O<wh> while [#<i> LE #<n>]
+		#<c> = [#<a> + #<b>]
+		(print,#<c,0>)
+		#<a> = #<b>
+		#<b> = #<c>
+		#<i> = [#<i> + 1]
+	O<wh> endwhile
+O<Fibonacci> endsub

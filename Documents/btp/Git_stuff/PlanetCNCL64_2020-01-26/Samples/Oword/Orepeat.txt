@@ -1,0 +1,9 @@
+%
+#<_cnt> = 0
+(print,BEGIN: #<_cnt>)
+O<test> repeat[5]
+  #<_cnt> = [#<_cnt> + 1]
+  (print,CNT: #<_cnt>)
+O<test> endrepeat
+(print,END: #<_cnt>)
+%

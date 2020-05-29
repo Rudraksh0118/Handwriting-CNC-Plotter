@@ -1,0 +1,14 @@
+%
+O<if> if [EXISTS[#<count>] EQ 0]
+#<count> = 0
+O<if> endif 
+
+(print,Count: #<count,0>)
+
+#<count> = [#<count> + 1]
+O<if> if [#<count> EQ 10]
+	M2
+O<if> endif
+
+M99
+%

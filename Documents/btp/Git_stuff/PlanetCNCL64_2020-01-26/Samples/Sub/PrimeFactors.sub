@@ -1,0 +1,23 @@
+;O<PrimeFactors> call [12246] ;2 3 13 157
+
+O<PrimeFactors> sub
+	#<n> = #1
+
+	O<wh> while [[#<n> MOD 2] EQ 0]
+		(print,2)
+		#<n> = [#<n>/2]
+	O<wh> endwhile
+
+	#<i> = 3
+	O<wh> while [#<i> LE sqrt[#<n>]]
+		O<wh2> while [[#<n> MOD #<i>] EQ 0]
+			(print,#<i,0>)
+			#<n> = [#<n>/#<i>]
+		O<wh2> endwhile
+		#<i> = [#<i> + 2]
+	O<wh> endwhile
+ 
+	O<if> if [#<n> GT 2]
+		(print,#<n,0>)
+	O<if> endif
+O<PrimeFactors> endsub

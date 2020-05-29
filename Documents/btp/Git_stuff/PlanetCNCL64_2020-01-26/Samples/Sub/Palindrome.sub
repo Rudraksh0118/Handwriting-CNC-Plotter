@@ -1,0 +1,22 @@
+;#<n> = 123456787654321
+;O<Palindrome> call [#<n>] [0]
+;O<if> if [#<n> EQ #<_return>]
+;	(print,YES)
+;O<if> else
+;	(print,NO)
+;O<if> endif
+
+O<Palindrome> sub
+	#<n> = ROUND[#1]
+	#<temp> = ROUND[#2]
+
+	O<if> if [#<n> EQ 0]
+		O<Palindrome> return [#<temp>] (this is ret)
+	O<if> endif
+
+	(print,#1     #2)
+	#<temp> = [[#<temp> * 10] + [#<n> MOD 10]]
+	O<Palindrome> call [#<n> DIV 10] [#<temp>]
+	#<temp> = #<_return>
+
+O<Palindrome> endsub [#<temp>] (this is end)

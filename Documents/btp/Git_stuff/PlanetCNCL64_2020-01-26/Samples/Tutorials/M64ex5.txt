@@ -1,0 +1,26 @@
+%
+;Ext1 output 'running light'
+;direction is based on Aux2 analog pin value
+;this g-code runs in endless loop 
+;  M64 arguments:
+;    M64 H<ssel> Q<value> [L<length>]
+
+#<pin> = 0
+#1 = 0
+o10 while[#1 LT 100]
+  o100 if[#<_hw_aux2> GT 514]
+	  o1010 if[#<pin> LT 7]
+      #<pin> = [#<pin> + 1]
+    o1010 endif
+	o100 elseif[#<_hw_aux2> LT 510]
+    o1020 if [#<pin> GT 0]
+      #<pin> = [#<pin> - 1]
+    o1020 endif
+  o100 else
+   
+  o100 endif
+  (print,Aux2=#<_hw_aux2,0>, Pin=#<pin,0>)
+  M64 H1 Q[2 ** #<pin>] L10
+  G09
+o10 endwhile
+%

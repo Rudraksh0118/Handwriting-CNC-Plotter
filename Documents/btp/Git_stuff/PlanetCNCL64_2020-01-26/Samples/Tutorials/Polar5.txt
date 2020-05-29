@@ -1,0 +1,13 @@
+%
+;Example 5: Polar mode in absolute mode
+G17 G21 G90 
+G00 X0 Y0 
+G16
+G01 X30 Y90
+X30 Y180
+X30 Y270
+X30 Y0
+X30 Y90
+G15
+G00 X0 Y0 
+%

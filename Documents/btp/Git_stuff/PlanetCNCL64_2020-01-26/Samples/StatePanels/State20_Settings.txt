@@ -1,0 +1,214 @@
+name "Settings"
+
+---
+label "General" colorname=#ffa500
+param _set_units 0 "Units"
+
+---
+label "Motors" colorname=#ffa500
+param _motoroutputorder_1 0 "Order 1"
+param _motoroutputorder_2 0 "Order 2"
+param _motoroutputorder_3 0 "Order 3"
+param _motoroutputorder_4 0 "Order 4"
+param _motoroutputorder_5 0 "Order 5"
+param _motoroutputorder_6 0 "Order 6"
+param _motoroutputorder_7 0 "Order 7"
+param _motoroutputorder_8 0 "Order 8"
+param _motoroutputorder_9 0 "Order 9"
+---
+param _motoroutputreverse_1 0 "Reverse 1"
+param _motoroutputreverse_2 0 "Reverse 2"
+param _motoroutputreverse_3 0 "Reverse 3"
+param _motoroutputreverse_4 0 "Reverse 4"
+param _motoroutputreverse_5 0 "Reverse 5"
+param _motoroutputreverse_6 0 "Reverse 6"
+param _motoroutputreverse_7 0 "Reverse 7"
+param _motoroutputreverse_8 0 "Reverse 8"
+param _motoroutputreverse_9 0 "Reverse 9"
+			
+---
+label "Motors/StepsPerUnit" colorname=#ffa500
+param _motorspu_x 3 "SPU X"
+param _motorspu_y 3 "SPU Y"
+param _motorspu_z 3 "SPU Z"
+param _motorspu_a 3 "SPU A"
+param _motorspu_b 3 "SPU B"
+param _motorspu_c 3 "SPU C"
+param _motorspu_u 3 "SPU U"
+param _motorspu_v 3 "SPU V"
+param _motorspu_w 3 "SPU W"
+			
+---
+label "Motors/Speed" colorname=#ffa500
+param _motorspeed_x 3 "Max Speed X"
+param _motorspeed_y 3 "Max Speed Y"
+param _motorspeed_z 3 "Max Speed Z"
+param _motorspeed_a 3 "Max Speed A"
+param _motorspeed_b 3 "Max Speed B"
+param _motorspeed_c 3 "Max Speed C"
+param _motorspeed_u 3 "Max Speed U"
+param _motorspeed_v 3 "Max Speed V"
+param _motorspeed_w 3 "Max Speed W"
+			
+---
+label "Motors/Acceleration" colorname=#ffa500
+param _motoracc_x 3 "Acceleration X"
+param _motoracc_y 3 "Acceleration Y"
+param _motoracc_z 3 "Acceleration Z"
+param _motoracc_a 3 "Acceleration A"
+param _motoracc_b 3 "Acceleration B"
+param _motoracc_c 3 "Acceleration C"
+param _motoracc_u 3 "Acceleration U"
+param _motoracc_v 3 "Acceleration V"
+param _motoracc_w 3 "Acceleration W"
+
+---
+param _motordec_x 3 "Deceleration X"
+param _motordec_y 3 "Deceleration Y"
+param _motordec_z 3 "Deceleration Z"
+param _motordec_a 3 "Deceleration A"
+param _motordec_b 3 "Deceleration B"
+param _motordec_c 3 "Deceleration C"
+param _motordec_u 3 "Deceleration U"
+param _motordec_v 3 "Deceleration V"
+param _motordec_w 3 "Deceleration W"
+			
+---
+label "Motors/Limits" colorname=#ffa500
+param _motorlimit_xn 3 "Limit X-"
+param _motorlimit_yn 3 "Limit Y-"
+param _motorlimit_zn 3 "Limit Z-"
+param _motorlimit_an 3 "Limit A-"
+param _motorlimit_bn 3 "Limit B-"
+param _motorlimit_cn 3 "Limit C-"
+param _motorlimit_un 3 "Limit U-"
+param _motorlimit_vn 3 "Limit V-"
+param _motorlimit_wn 3 "Limit W-"
+---
+param _motorlimit_xp 3 "Limit X+"
+param _motorlimit_yp 3 "Limit Y+"
+param _motorlimit_zp 3 "Limit Z+"
+param _motorlimit_ap 3 "Limit A+"
+param _motorlimit_bp 3 "Limit B+"
+param _motorlimit_cp 3 "Limit C+"
+param _motorlimit_up 3 "Limit U+"
+param _motorlimit_vp 3 "Limit V+"
+param _motorlimit_wp 3 "Limit W+"
+---
+param _motorlimit_xn_en B "Limit X- En"
+param _motorlimit_yn_en B "Limit Y- En"
+param _motorlimit_zn_en B "Limit Z- En"
+param _motorlimit_an_en B "Limit A- En"
+param _motorlimit_bn_en B "Limit B- En"
+param _motorlimit_cn_en B "Limit C- En"
+param _motorlimit_un_en B "Limit U- En"
+param _motorlimit_vn_en B "Limit V- En"
+param _motorlimit_wn_en B "Limit W- En"
+---
+param _motorlimit_xp_en B "Limit X+ En"
+param _motorlimit_yp_en B "Limit Y+ En"
+param _motorlimit_zp_en B "Limit Z+ En"
+param _motorlimit_ap_en B "Limit A+ En"
+param _motorlimit_bp_en B "Limit B+ En"
+param _motorlimit_cp_en B "Limit C+ En"
+param _motorlimit_up_en B "Limit U+ En"
+param _motorlimit_vp_en B "Limit V+ En"
+param _motorlimit_wp_en B "Limit W+ En"
+			
+---
+label "Motors/Limit Switch" colorname=#ffa500
+param _limitpin_xn 0 "Limit X- Pin"
+param _limitpin_yn 0 "Limit Y- Pin"
+param _limitpin_zn 0 "Limit Z- Pin"
+param _limitpin_an 0 "Limit A- Pin"
+param _limitpin_bn 0 "Limit B- Pin"
+param _limitpin_cn 0 "Limit C- Pin"
+param _limitpin_un 0 "Limit U- Pin"
+param _limitpin_vn 0 "Limit V- Pin"
+param _limitpin_wn 0 "Limit W- Pin"
+---
+param _limitpin_xp 0 "Limit X+ Pin"
+param _limitpin_yp 0 "Limit Y+ Pin"
+param _limitpin_zp 0 "Limit Z+ Pin"
+param _limitpin_ap 0 "Limit A+ Pin"
+param _limitpin_bp 0 "Limit B+ Pin"
+param _limitpin_cp 0 "Limit C+ Pin"
+param _limitpin_up 0 "Limit U+ Pin"
+param _limitpin_vp 0 "Limit V+ Pin"
+param _limitpin_wp 0 "Limit W+ Pin"
+			
+---
+label "Motion" colorname=#ffa500
+param _motion_maxspeed 3 "Max Speed"
+param _motion_maxacc 3 "Max Acceleration"
+param _motion_maxdec 3 "Max Deceleration"
+
+---
+label "Jogging" colorname=#ffa500
+param _jog_speeddef 2 "Default Speed"
+param _jog_speedkbd	2 "Keyboard Speed"
+param _jog_stepdef 3 "Default Step"
+param _jog_rounddef 3 "Default Round"
+---
+param _jog_speed 2 "Current Speed"
+param _jog_step 3 "Current Step"
+param _jog_round 3 "Current Round"
+
+---
+label "Spindle" colorname=#ffa500
+param _spindle_pin_mode 0 "Pin Mode"
+param _spindle_pin_cw 0 "CW Pin"
+param _spindle_pin_ccw 0 "CCW Pin"
+param _spindle_pin_speed 0 "Speed Pin"
+---
+param _spindle_speed_min 1 "Speed Min"
+param _spindle_speed_max 1 "Speed Max"
+---
+param _spindle_delay_start 1 "Delay Start"
+param _spindle_delay_stop 1 "Delay Stop"
+
+---
+param _spindle_freq_mode 0 "Freq Mode"
+---
+param _spindle_usefreq B "Use Freq (R)"
+param _spindle_freq_min 0 "Min Freq"
+param _spindle_freq_max 0 "Max Freq"
+param _spindle_freq_stepwidth 0 "Step Width"
+---
+param _spindle_usepwm B "Use PWM (R)"
+param _spindle_pwm_freq 0 "PWM Freq"
+---
+param _spindle_userc B "Use RC Servo (R)"
+param _spindle_rc_lo 0 "Lo"
+param _spindle_rc_hi 0 "Hi"
+
+---
+label "Coolant" colorname=#ffa500
+param _mist_pin 0 "Mist Pin"
+param _flood_pin 0 "Flood Pin"
+
+---
+label "Program Defaults" colorname=#ffa500
+label "G-Code"
+param _program_units 0 "Units"
+param _program_plane 0 "Plane"
+param _program_distmode 0 "Distance Mode"
+param _program_distmodeijk 1 "Distance Mode IJK"
+param _program_distmodeabc 1 "Distance Mode ABC"
+param _program_cyclereturn 0 "CycleReturn"
+param _program_lathemode 0 "Lathe Mode"
+---
+label "Speeds"
+param _speed_traverse 3 "Traverse"
+param _speed_traverseabc 3 "Traverse ABC"
+param _speed_feed 3 "Feed"
+---
+param _speed_spindle 2 "Spindle"
+
+---
+label "Overrides"
+param _ovrd_speedfeed 3 "Feed"
+param _ovrd_speedtraverse 3 "Traverse"
+---
+param _ovrd_spindle 3 "Spindle"
+

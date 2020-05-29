@@ -1,0 +1,27 @@
+name "Mode"
+
+label "Modal state" colorname=#ffa500
+param _motion 0 "Motion (R)"
+---
+param _units 0 "Units"
+param _plane 0 "Plane"
+param _distancemode 0 "Distance Mode"
+param _distancemode_ijk 1 "Distance Mode IJK"
+param _distancemode_abc 1 "Distance Mode ABC"
+param _polarmode 0 "Polar Mode"
+param _cyclereturnmode 0 "Cycle Return Mode"
+param _lathemode 0 "Lathe Mode"
+---
+param _blendmode 0 "Blend Mode (R)"
+param _blend_tol 3 "Blend Tolerance (R)"
+---
+param _feedmode 0 "Feed Mode (R)"
+param _feedspeed 3 "Feed Speed (R)"
+param _feedspeed_upm 3 "Feed Speed UPM (R)"
+param _feedspeed_upr 3 "Feed Speed UPR (R)"
+---
+param _spindlemode 0 "Spindle Mode (R)"
+param _spindlespeed 2 "Spindle Speed (R)"
+param _spindlespeed_rpm 2 "Spindle Speed RPM (R)"
+param _spindlespeed_css 2 "Spindle Speed CSS (R)"
+

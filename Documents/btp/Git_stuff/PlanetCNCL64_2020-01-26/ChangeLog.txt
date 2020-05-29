@@ -1,0 +1,166 @@
+2020-01-24
+New: 3D alpha setting for travese moves
+Fix: Some missing translations
+Fix: Weird bug in cycles
+Fix: EStop events incorrectly triggered on normal Stop
+
+2020-01-17
+Fix: Wireless handwheel - wrong leading zeros on display
+Mod: Tool table dialog is now resizable
+Mod: Coordinate systems dialog is now resizable
+Fix: Work position sometimes incorrectly displays Z coordinate when Warp is disabled
+Fix: Probe input canceled pause
+New: Save points to DXF file
+New: Motion state is set to G80 on interpreter reset
+New: Settings/Scripts remember last selection
+New: Separate Speed Override Min/Max settings for feed and traverse
+Fix: Typing number starting with dot in position panel triggered an error
+Fix: Command scripts are selecting loaded g-code lines
+Fix: Transformations and drill cycles
+New: Status LEDs
+New: G-code dialogs and messages OK/Cancel buttons are clicked by Start, Stop and EStop shortcuts
+Fix: Toolpath history coordinates were incorrect in some cases
+Mod: THC - support for packets larger than 1
+New: Jogging and probe axis lock
+New: Parameters _hw_axislock, _prog_maxspeed, _prog_minspeed, _prog_maxspindle, _prog_minspindle
+New: G73 drill cycle now supports partial retract
+New: (msg) and (print) now support displaying tool names.
+New: Tool names displayed on toolchange
+New: Toolchange supports message and pause at same time
+New: Toolchange script now handles spindle
+Fix: Outputs/Spindle/Coolant pins were turned off on probe if EStop event was set
+Fix: Spindle direction pin retains state on spindle off
+
+2020-01-03
+Fix: Some localization issues
+Fix: JogPot setting in inch units
+Mod: Driver digital signature updated
+Fix: Firmware update issue
+
+2019-12-20
+New: Different speeds for ATC move 1 and 2
+New: Tooltable option to skip tool (for example laser as secondary spindle)
+New: THC for plasma machines
+Mod: Program/Shift - presets
+Fix: Machine/Work Position/Camera XY script
+Fix: Inverted output initial state
+Mod: Support for 3D transformations
+
+2019-12-12
+Fix: Dxf dialog import in inch units
+Fix: HPGL import dialog in inch units
+Fix: Gerber import dialog in inch units
+Fix: Machine/Work Position/Camera XY script
+New: Toolchange ATC script
+Fix: Machine/Start commands -> renamed because of duplicate names
+
+2019-12-06
+Fix: Simulation flood and mist fixed
+New: word parameters in M-code scripts (PQRDEHL)
+Mod: Mill Cycles are now fully implemnented (including both packing codes G83 and G73)
+Mod: G12, G13 are now fully implemnented
+New: G-code funtion 'Active[]'
+New: Start from selected line - option to restore state
+New: Start from selected line - restored motion mode
+Fix: Units issue with G20 active and UI in millimeters
+Fix: G33 and pause bug
+Mod: Renamed menu Machine/Advanced to Machine/Start 
+Mod: Reorganized Machine/Options menu
+New: Simulation of probe trigger
+New: Toolchange Autoreturn
+
+2019-11-29
+New: USB expansion boards support commands from G-code
+Mod: M61 G-code no longer changes selected tool parameter
+New: API example ProjectMicro2 for Arduino
+Mod: Python perfomance tweaks
+Mod: Consolidated Program Options setting pages
+New: Restore state on estop and stop
+Fix: G10L9 with G91 bug
+New: Tooltable - sensor offset setting
+New: Tooltable - user parameters
+New: Toolchanger settings (ATC is still on TODO)
+
+2019-11-22
+Fix: Sync 3D color
+Mod: OnStart script now supports parameters posstate_x..w, miststate, floodstate, spindlestate, motorsstate, limitsstate
+Fix: G33 bug
+Fix: Spindle Sync Signal setting
+Fix: ExtIn problems
+New: ExtIn pin as shortcut
+New: Spindle, Mist and Flood now work even if output pins are not set 
+Fix: Small bug in G33.1
+New: Single Step
+New: Start/Stop shortcuts for OK/Cancel in dialogs
+Fix: Line numbers on comments were incorrect
+
+2019-11-15
+New: New parameters: _motoroutputorder_axis, _motoroutputreverse_axis
+New: New parameters: _motorspu_axis, _motorspeed_axis, _motoracc_axis, _motordec_axis
+New: Support for gantry squaring measurments
+Fix: Freeze during dwell
+New: EStop event "Outputs Off"
+Mod: Blend angle calculation optimization
+New: UserGen and UserCmd examples
+New: New parameters: '_tooloff_axis', '_workoff_axis', '_axisoff_axis', '_coordsys_axis'
+Fix: Some glitches in measurments
+Fix: Tool offset measuring script
+New: MDI history delete and reorder features
+Mod: Measure height scripts
+Mod: Spindle settings
+
+2019-11-08
+New: G43 and G44 tool offset g-code - added support for G0 and G1 on same line.
+Fix: Bug with autoremoved subroutine.
+Fix: Zoom to part when no program is loaded.
+Fix: Windows installation now asks for target folder
+Fix: Instalation files for Linux and MacOS
+New: Expression functions 'startfn' and 'startcode'
+New: Python 'result' object
+Mod: InfoPosition API is faster
+New: 'tooltip=' custom button attribute
+Fix: 'Inc' and 'Dec' g-code functions
+New: 'Def' function
+New: Clickig 'Cancel' on g-code dialog will trigger 'OnStop' script
+New: Expression operators '&&', '||' and '!'
+New: Automaticaly generate 'Script', 'UserCmd' and 'UserGen' folders
+New: Support for ExtIn and ExtOut boards
+New: New options for '(arrchr)' g-code comment
+Mod: M64 now supports data reading (R and D words, M64ex7.txt sample file)
+Note: Mill Cycles are partialy completed
+Note: G12, G13 are partialy completed
+
+2019-10-28
+First beta version of TNG v2
+
+2019-08-15
+First "preview" version of TNG v2
+
+---------------------------------------------------------------------------------
+Latest API: https://planet-cnc.com/wp-content/uploads/sw/PlanetCNC_API.zip
+Latest Doc: https://planet-cnc.com/wp-content/uploads/sw/PlanetCNC_Doc.zip
+Latest Samples: https://planet-cnc.com/wp-content/uploads/sw/PlanetCNC_Samples.zip
+Latest Driver: https://planet-cnc.com/wp-content/uploads/sw/PlanetCNC_Driver.zip
+
+---------------------------------------------------------------------------------
+TODO: Lathe Cycles
+TODO: Lathe CSS (G96/G97)
+TODO: Expr.txt (#OnInit, #OnShutdown, #OnSettings, #OnStart, #OnEnd, #OnStop, #OnEStop, #OnError)
+
+TODO: Image Import
+TODO: ShapesCAM
+TODO: G06 "Shapes" g-code
+TODO: Laser example
+TODO: 3D printer example
+TODO: 3D object display
+TODO: Red connector
+TODO: Dxf import smoothing option
+TODO: Post for Vectric for laser
+
+
+
+
+
+
+
+

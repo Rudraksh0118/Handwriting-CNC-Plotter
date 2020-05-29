@@ -1,0 +1,13 @@
+%
+;Wait wor input
+;  M59 arguments:
+;    M59 P<pin>
+
+o10 repeat [20]
+  (print,Wait start)
+  M59 P1
+  (print,Wait end)
+  G04 P0.5
+  G09
+o10 endrepeat
+%

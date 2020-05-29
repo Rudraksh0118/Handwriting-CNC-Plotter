@@ -1,0 +1,11 @@
+%
+#<_cnt> = 10
+(print,BEGIN: #<_cnt>)
+O<test> do
+  #<_cnt> = [#<_cnt> - 1]
+  (print,CNTa: #<_cnt>)
+  O<test> continue
+  (print,CNTb: #<_cnt>)
+O<test> while [#<_cnt> GT 0]
+(print,END: #<_cnt>)
+%

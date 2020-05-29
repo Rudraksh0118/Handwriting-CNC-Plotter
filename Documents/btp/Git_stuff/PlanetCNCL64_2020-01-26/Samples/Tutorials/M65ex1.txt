@@ -1,0 +1,12 @@
+%
+;sends characters 'a' to 'z' to TX serial pin one at the time
+;  M65 arguments:
+;    M65 Q<value>
+
+#1 = 65
+o100 while [#1 LE 90]
+  M65 Q[#1]
+  G04 P0.1
+  #1 = [#1 + 1]
+o100 endwhile
+%

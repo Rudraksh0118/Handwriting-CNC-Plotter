@@ -1,0 +1,37 @@
+name "Trans"
+
+---
+label "Transformation" colorname=#ffa500
+param _trans_en B "Trans Enabled (R)"
+param _trans_a0 4 "Trans A0 (R)"
+param _trans_b0 4 "Trans B0 (R)"
+param _trans_c0 4 "Trans C0 (R)"
+param _trans_a1 4 "Trans A1 (R)"
+param _trans_b1 4 "Trans B1 (R)"
+param _trans_c1 4 "Trans C1 (R)"
+param _trans_a2 4 "Trans A2 (R)"
+param _trans_b2 4 "Trans B2 (R)"
+param _trans_c2 4 "Trans C2 (R)"
+param _trans_a3 4 "Trans A3 (R)"
+param _trans_b3 4 "Trans B3 (R)"
+param _trans_c3 4 "Trans C3 (R)"
+
+---
+param _trans_shift_x 3 "Shift X (R)"
+param _trans_shift_y 3 "Shift Y (R)"
+param _trans_shift_Z 3 "Shift Z (R)"
+
+---
+param _trans_rot_x 3 "Rot X (R)"
+param _trans_rot_y 3 "Rot Y (R)"
+param _trans_rot_z 3 "Rot Z (R)"
+
+---
+param _trans_scale_x 3 "Scale X (R)"
+param _trans_scale_y 3 "Scale Y (R)"
+param _trans_scale_z 3 "Scale Z (R)"
+
+---
+label "Warp" colorname=#ffa500
+param _warp_en B "Warp Enabled (R)"
+param _warp_count 0 "Warp Count (R)"

@@ -1,0 +1,7 @@
+%
+O<test> sub
+  (print,SUB: #1, #2)
+O<test> endsub [33]
+O<test> call [11] [22]
+(print,RETURNED VALUE: #<_return>)
+%

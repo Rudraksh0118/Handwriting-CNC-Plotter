@@ -1,0 +1,66 @@
+;Reading temperature with I2C sensor MPL3115A2
+;Logging current time, position and temperature to file
+
+(logopen,c:\MPL3115A2.txt)
+
+;Set to altimeter with an OSR=128
+#3001 = 38  ;0x26
+#3002 = 184 ;0xB8
+M66 H192 Q3001 E2 
+
+;Enable Data Flags in PT_DATA_CFG
+#3001 = 19  ;0x13
+#3002 = 7   ;0x07
+M66 H192 Q3001 E2
+
+;Set Active
+#3001 = 38  ;0x26
+#3002 = 185 ;0xB9
+M66 H192 Q3001 E2
+
+#<cnt> = 0
+o100 while[[#<_x> GT -10] AND [#<_x> LT 10]]
+
+	#<dt> = DATETIME[]
+	#<h> = HOUR[#<dt>]
+	#<m> = MINUTE[#<dt>]
+	#<s> = SECOND[#<dt>]
+	
+  ;Read STATUS Register
+  #3001 = 0  ;0x00
+  M66 H192 Q3001 E1 R4000 D1
+
+  #<ready> = [#4000 AND 8] 
+  o200 if[#<ready>]
+    #3001 = 1  ;0x01
+    M66 H192 Q3001 E1 R4001 D1
+    #3001 = 2  ;0x02
+    M66 H192 Q3001 E1 R4002 D1
+    #3001 = 3  ;0x03
+    M66 H192 Q3001 E1 R4003 D1 
+    #3001 = 4  ;0x04
+    M66 H192 Q3001 E1 R4004 D1
+    #3001 = 5  ;0x05
+    M66 H192 Q3001 E1 R4005 D1 
+  
+    #<temp> = [#4004 + #4005/256] 
+    (print,Time is #<h,0>:#<m,0>:#<s,0>, Temperature at postion X#<_x> Y#<_y> is #<temp>)
+    (log,Time is #<h,0>:#<m,0>:#<s,0>, Temperature at postion X#<_x> Y#<_y> is #<temp>)
+    
+    G91
+    o300 if[#<temp> LT 30]
+      ;G00 X+1
+    o300 else
+      ;G00 X-1
+    o300 endif  
+    G90
+  
+    #<cnt> = [#<cnt>+1]  
+  o200 endif
+  
+o100 endwhile
+
+(print,Game Over after #<cnt,0> iterations)
+(log,Game Over after #<cnt,0> iterations)
+
+(logclose)

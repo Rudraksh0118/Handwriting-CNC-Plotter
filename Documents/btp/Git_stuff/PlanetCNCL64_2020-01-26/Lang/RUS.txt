@@ -1,0 +1,1199 @@
+(name,Rusian)
+
+;General
+OK=OK
+Cancel=Выход
+Apply=Принять
+Close=Закрыть
+True=True
+False=False
+Not Set=Not Set
+On=Включить
+Off=Выключить
+Enable=Enable
+Disable=Disable
+Script=Скрипт
+Firmware=Firmware
+Info=Инфо
+Warning=Предупреждение
+Error=Ошибка
+Abort=Abort
+Alert=Тревога
+Save=Save
+Open=Open
+Redraw=Redraw
+Set=Set
+
+Current=Current
+Tool=Tool
+Current Tool=Current Tool
+Selected Tool=Selected Tool
+Dia=Dia
+Coordinate System=Coordinate System
+Current Coordinate System=Current Coordinate System
+
+Red=Red
+Green=Green
+Blue=Blue
+Alpha=Alpha
+Hue=Hue
+Saturation=Saturation
+Lightness=Lightness
+
+;Wnd
+Wnd/Work=Работа
+Wnd/Machine=Машина
+Wnd/Motors=Мотор
+Wnd/GCode=GCode
+Wnd/GCode/Active G-Codes=Active G-Codes
+Wnd/GCode/Active M-Codes=Active M-Codes
+Wnd/GCode/Other Codes=Other Codes
+Wnd/IO=IO
+Wnd/IO/Output=Выход
+Wnd/IO/Input=Вход
+Wnd/IO/Limit=Лимит
+Wnd/IO/Jog=Работа
+Wnd/IO/Ctrl=Управление
+Wnd/IO/Aux=Ось
+Wnd/IO/Controller=Controller
+
+;Menu
+
+File=Файл
+File/Close=Закрыть
+File/Open ...=Открыть ...
+File/Open Last File=Открыть Последний Файл
+File/Open File=Open File
+File/Open Code=Open Code
+File/Recent Files=последние файлы
+File/Import G-Code ...=Импорт G-Code ...
+File/Import DXF ...=Импорт DXF ...
+File/Import PLT, HPGL ...=Импорт PLT, HPGL ...
+File/Import Gerber ...=Импорт Gerber ...
+File/Import NC Drill ...=Импорт NC Drill ...
+File/Import CSV ...=Импорт CSV ...
+File/Import Image ...=Import Image ...
+File/Import Python Script ...=Import Python Script ...
+
+File/Generate=Generate
+File/Export G-Code ...=Экспорт G-Code ...
+File/Export DXF ...=Экспорт DXF ...
+File/Export CSV ...=Экспорт CSV ...
+File/Run Python Script ...=Run Python Script ...
+File/Settings ...=Настройки ...
+File/Import Settings ...=Импорт настроек ...
+File/Export Settings ...=Экспорт настроек ...
+File/Import Profile ...=Import Profile ...
+File/Export Profile ...=Export Profile ...
+File/Language=Язык
+File/Exit=Выход
+
+View=Вид
+View/Top View=Вид Сверху
+View/Side View=боковой вид
+View/Front View=Вид спереди
+View/Perspective View=Перспектива
+View/Zoom In=Увеличить
+View/Zoom Out=Уменьшить
+View/Zoom Position=Zoom Position
+View/Zoom Part=Zoom Part
+View/Follow Position=перейти к позиции
+View/Center Zero=Центр нуля
+
+View/Show=Показать
+View/Show/Show Grid=Показать Сетку
+View/Show/Show Axes Lines=Показывать Линии Осей
+View/Show/Show Axes Center=Показать Центр Осей
+View/Show/Show Limits=Показать Ограничения
+View/Show/Show Extents=Показать Расширения
+View/Show/Show Toolpath History=Показать Историю Траектории
+View/Show/Show Gauges=Показать Датчики
+View/Show/Show Hover=Show Hover
+View/Show/Show Completed=Показать Завершие
+View/Show/Show DepthTest=Показать Тест Глубины
+View/Show/Show Multisample=Показать Мульти-образец
+View/Show/Show Objects=Показать Объекты
+
+View/Panel=Панель
+View/Panel/Left=Left
+View/Panel/3D=3D
+View/Panel/Utilities=Utilities
+View/Panel/Right=Right
+View/Reset Windows=Сброс Окон
+View/Refresh=Refresh
+
+Program=Программа
+Program/Redraw=Redraw
+Program/Edit ...=Edit ...
+
+Program/Lines=Строка
+Program/Lines/Next=Следующая
+Program/Lines/Next Page=Следующая страница
+Program/Lines/Previous=Предыдущий
+Program/Lines/Previous Page=Предыдущая страница
+Program/Lines/Forward=Пароль
+Program/Lines/Reverse=Реверс
+Program/Lines/Find ...=Find ...
+Program/Lines/Find Next=Find Next
+Program/Lines/Find Comment=Найти Комментарий
+Program/Lines/Find Toolchange=Найти Смена инструмента
+Program/Lines/Find Spindle=Найти Шпиндель
+Program/Lines/Optional Block Enabled=Optional Block Enabled
+
+Program/MDI=MDI
+Program/MDI/Select=Выбрать
+Program/MDI/Show History=Show History
+Program/MDI/Clear History=Очистить Историю
+
+Program/Bookmarks=Закладки
+Program/Bookmarks/Select Next=Выбрать следующюю
+Program/Bookmarks/Select Previous=Выбрать предыдущую
+Program/Bookmarks/Select All=Выбрать все
+Program/Bookmarks/Toggle=Toggle
+Program/Bookmarks/Clear=Очистить
+Program/Bookmarks/Set=Установить
+Program/Bookmarks/Tool Block=Блокировать инструмент
+Program/Bookmarks/Spindle Block=Блокировать шпиндель
+Program/Transformation ...=Трансформация ...
+Program/Shift ...=Сдвиг ...
+Program/Scale ...=Масштаб ...
+Program/Rotate ...=Повернуть ...
+Program/Mirror ...=Отразить зеркально ...
+Program/Points ...=Точки ...
+Program/Clear=Clear
+Program/Undo=Отмена
+Program/Warp ...=Деформация ...
+Program/Copy XYZ->UVW=Копировать XYZ->UVW
+Program/Copy UVW->XYZ=Копировать UVW->XYZ
+Program/Swap XYZ<->UVW=Изменить XYZ<->UVW
+Program/Copy To Clipboard=Копировать в буфер
+Program/Copy Line To Clipboard=Copy Line To Clipboard
+Program/Paste From Clipboard=Вставить Из Буфера
+
+Machine=Машина
+Machine/Emergency Stop=Аварийный стоп
+Machine/Start=Пуск
+Machine/Stop=Стоп
+Machine/Pause=Пауза
+Machine/Test File=Test File
+Machine/Test Code=Test Code
+Machine/Start File=Start File
+Machine/Start Code=Start Code
+
+Machine/Start Options=Start Options
+Machine/Advanced/Start From Selected Line=Начать С Выбранной Строки
+Machine/Advanced/Start From Bookmark To Bookmark=Начать С Закладки до закладки
+Machine/Advanced/Start From Beginning To Bookmark=Начать С Начала До Закладки
+Machine/Advanced/Start From Bookmark To End=Начать С Закладки До Конца
+Machine/Advanced/Start Loop ...=ЗапускЦикла ...
+
+Machine/Overrides=Overrides
+Machine/Override/Speed Override Enable=Speed Override Enable
+
+Machine/Override/Traverse=Traverse
+Machine/Override/Traverse/Reset=Reset
+Machine/Override/Traverse/Increase=Increase
+Machine/Override/Traverse/Decrease=Decrease
+
+Machine/Override/Feed=Feed
+Machine/Override/Feed/Reset=Reset
+Machine/Override/Feed/Increase=Increase
+Machine/Override/Feed/Decrease=Decrease
+Machine/Override/Spindle Override Enable=Spindle Override Enable
+
+Machine/Override/Spindle=Spindle
+Machine/Override/Spindle/Reset=Reset
+Machine/Override/Spindle/Increase=Increase
+Machine/Override/Spindle/Decrease=Decrease
+Machine/Override/Speed/Show=Show
+Machine/Override/Spindle/Show=Show
+Machine/Override/Pause Enable=Pause Enable
+Machine/Override/Pause Optional=Pause Optional
+Machine/Override/Single Step=Single Step
+
+Machine/Motors, Limits, Probe=Motors, Limits, Probe
+Machine/Motors/Motors Enable=Motors Enable
+Machine/Limits/Soft Limits Enable=Soft Limits Enable
+Machine/Limits/Hard Limits Enable=Hard Limits Enable
+Machine/Probe/Probe Trigger=Probe Trigger
+Machine/Mist=Туман
+Machine/Flood=Охлаждение
+Machine/Spindle=Шпиндель
+Machine/Spindle/CW=CW
+Machine/Spindle/CCW=CCW
+
+Machine/Output=Output
+Machine/Outputs/Output 1=Выход 1
+Machine/Outputs/Output 2=Выход 2
+Machine/Outputs/Output 3=Выход 3
+Machine/Outputs/Output 4=Выход 4
+Machine/Outputs/Output 5=Выход 5
+Machine/Outputs/Output 6=Выход 6
+Machine/Outputs/Output 7=Выход 7
+Machine/Outputs/Output 8=Выход 8
+
+Machine/Output PWM=Output PWM
+
+Machine/Tools=Инструмент
+
+Machine/Tools/Change=Смена
+
+Machine/Tools/Select=Выбор
+Machine/Tools/Edit Tool Table ...=Редактировать таблицу инструмента...
+
+Machine/Move=Перейти
+Machine/Move/To Zero=Обнулить
+Machine/Move/To ...=К ...
+Machine/Move/To Value ...=To Value ...
+
+Machine/Move/Axis To Zero=Перейти к нулю
+Machine/Move/Axis To Zero/X=X
+Machine/Move/Axis To Zero/Y=Y
+Machine/Move/Axis To Zero/Z=Z
+Machine/Move/Axis To Zero/A=A
+Machine/Move/Axis To Zero/B=B
+Machine/Move/Axis To Zero/C=C
+Machine/Move/Axis To Zero/U=U
+Machine/Move/Axis To Zero/V=V
+Machine/Move/Axis To Zero/W=W
+Machine/Move/Axis To Zero/XY=XY
+Machine/Move/Axis To Zero/UV=UV
+Machine/Move/To G28=To G28
+Machine/Move/To G30=To G30
+Machine/Move/To Selected Line=Выбрать Строку
+Machine/Move/To Selected Line XY=Выбрать Строку XY
+Machine/Move/Position To Camera=Перейти к позиции камеры
+Machine/Move/Camera To Position=Камеру в позицию
+Machine/Move/Camera To Selected Line XY=Камера К Выбранной Строке XY
+
+Machine/Machine Position=Абсолютная позиция
+Machine/Machine Position/To Zero=Обнулить
+Machine/Machine Position/To ...=К ...
+Machine/Machine Position/To Value ...=To Value ...
+
+Machine/Machine Position/Axis To Zero=Ось До Нуля
+Machine/Machine Position/Axis To Zero/X=X
+Machine/Machine Position/Axis To Zero/Y=Y
+Machine/Machine Position/Axis To Zero/Z=Z
+Machine/Machine Position/Axis To Zero/A=A
+Machine/Machine Position/Axis To Zero/B=B
+Machine/Machine Position/Axis To Zero/C=C
+Machine/Machine Position/Axis To Zero/U=U
+Machine/Machine Position/Axis To Zero/V=V
+Machine/Machine Position/Axis To Zero/W=W
+Machine/Machine Position/Axis To Zero/XY=XY
+Machine/Machine Position/Axis To Zero/UV=UV
+Machine/Machine Position/As G28=As G28
+Machine/Machine Position/As G30=As G30
+Machine/Machine Position/Reset THC=Сброс THC
+
+Machine/Work Position=Рабочая позиция
+Machine/Work Position/To Zero=К нулю
+Machine/Work Position/To ...=К ...
+Machine/Work Position/To Value ...=To Value ...
+
+Machine/Work Position/Axis To Zero=Ось к нулю
+Machine/Work Position/Axis To Zero/X=X
+Machine/Work Position/Axis To Zero/Y=Y
+Machine/Work Position/Axis To Zero/Z=Z
+Machine/Work Position/Axis To Zero/A=A
+Machine/Work Position/Axis To Zero/B=B
+Machine/Work Position/Axis To Zero/C=C
+Machine/Work Position/Axis To Zero/U=U
+Machine/Work Position/Axis To Zero/V=V
+Machine/Work Position/Axis To Zero/W=W
+Machine/Work Position/Axis To Zero/XY=XY
+Machine/Work Position/Axis To Zero/UV=UV
+Machine/Work Position/Measure Height=Measure Height
+
+Machine/Work Position/Offset=Offset
+Machine/Work Position/Offset/To Zero=To Zero
+Machine/Work Position/Offset/To ...=To ...
+Machine/Work Position/Offset/To Value ...=To Value ...
+
+Machine/Work Position/Offset/Axis To Zero=Axis To Zero
+Machine/Work Position/Offset/Axis To Zero/X=X
+Machine/Work Position/Offset/Axis To Zero/Y=Y
+Machine/Work Position/Offset/Axis To Zero/Z=Z
+Machine/Work Position/Offset/Axis To Zero/A=A
+Machine/Work Position/Offset/Axis To Zero/B=B
+Machine/Work Position/Offset/Axis To Zero/C=C
+Machine/Work Position/Offset/Axis To Zero/U=U
+Machine/Work Position/Offset/Axis To Zero/V=V
+Machine/Work Position/Offset/Axis To Zero/W=W
+Machine/Work Position/Offset/Axis To Zero/XY=XY
+Machine/Work Position/Offset/Axis To Zero/UV=UV
+Machine/Work Position/Selected Line=Выбранная строка
+Machine/Work Position/Selected Line XY=Выбранная строка XY
+Machine/Work Position/Camera XY=Камера XY
+
+Machine/Coordinate System=Система координат
+
+Machine/Coordinate System/Select=Выбирать
+Machine/Coordinate System/Select/1=1
+Machine/Coordinate System/Select/2=2
+Machine/Coordinate System/Select/3=3
+Machine/Coordinate System/Select/4=4
+Machine/Coordinate System/Select/5=5
+Machine/Coordinate System/Select/6=6
+Machine/Coordinate System/Select/7=7
+Machine/Coordinate System/Select/8=8
+Machine/Coordinate System/Select/9=9
+Machine/Coordinate System/To Zero=Обнулить
+Machine/Coordinate System/To ...=To ...
+Machine/Coordinate System/To Value ...=To Value ...
+
+Machine/Coordinate System/Axis To Zero=Ось До Нуля
+Machine/Coordinate System/Axis To Zero/X=X
+Machine/Coordinate System/Axis To Zero/Y=Y
+Machine/Coordinate System/Axis To Zero/Z=Z
+Machine/Coordinate System/Axis To Zero/A=A
+Machine/Coordinate System/Axis To Zero/B=B
+Machine/Coordinate System/Axis To Zero/C=C
+Machine/Coordinate System/Axis To Zero/U=U
+Machine/Coordinate System/Axis To Zero/V=V
+Machine/Coordinate System/Axis To Zero/W=W
+Machine/Coordinate System/Axis To Zero/XY=XY
+Machine/Coordinate System/Axis To Zero/UV=UV
+Machine/Coordinate System/Measure Height=Measure Height
+
+Machine/Coordinate System/Offset=Offset
+Machine/Coordinate System/Offset/To Zero=To Zero
+Machine/Coordinate System/Offset/To ...=To ...
+Machine/Coordinate System/Offset/To Value ...=To Value ...
+
+Machine/Coordinate System/Offset/Axis To Zero=Axis To Zero
+Machine/Coordinate System/Offset/Axis To Zero/X=X
+Machine/Coordinate System/Offset/Axis To Zero/Y=Y
+Machine/Coordinate System/Offset/Axis To Zero/Z=Z
+Machine/Coordinate System/Offset/Axis To Zero/A=A
+Machine/Coordinate System/Offset/Axis To Zero/B=B
+Machine/Coordinate System/Offset/Axis To Zero/C=C
+Machine/Coordinate System/Offset/Axis To Zero/U=U
+Machine/Coordinate System/Offset/Axis To Zero/V=V
+Machine/Coordinate System/Offset/Axis To Zero/W=W
+Machine/Coordinate System/Offset/Axis To Zero/XY=XY
+Machine/Coordinate System/Offset/Axis To Zero/UV=UV
+Machine/Coordinate System/Edit Coordinate Systems ...=Edit Coordinate Systems ...
+
+Machine/Tool Offset=Смещение Инструмента
+
+Machine/Tool Offset/Enabled=Enabled
+Machine/Tool Offset/To Zero=Обнулить
+Machine/Tool Offset/To ...=К ...
+Machine/Tool Offset/To Value ...=To Value ...
+
+Machine/Tool Offset/Axis To Zero=Ось До Нуля
+Machine/Tool Offset/Axis To Zero/X=X
+Machine/Tool Offset/Axis To Zero/Y=Y
+Machine/Tool Offset/Axis To Zero/Z=Z
+Machine/Tool Offset/Axis To Zero/A=A
+Machine/Tool Offset/Axis To Zero/B=B
+Machine/Tool Offset/Axis To Zero/C=C
+Machine/Tool Offset/Axis To Zero/U=U
+Machine/Tool Offset/Axis To Zero/V=V
+Machine/Tool Offset/Axis To Zero/W=W
+Machine/Tool Offset/Axis To Zero/XY=XY
+Machine/Tool Offset/Axis To Zero/UV=UV
+Machine/Tool Offset/Measure Length=Measure Length
+Machine/Tool Offset/From Tool Table=Из Таблицы Инструментов
+Machine/Home=Home
+
+Machine/Measure=Измерить
+Machine/Measure/Inside Corner=Inside Corner
+Machine/Measure/Outside Corner=Outside Corner
+Machine/Measure/Hole=Hole
+Machine/Measure/Protrusion=Protrusion
+Machine/Measure/Slot=Slot
+Machine/Measure/Tab=Tab
+Machine/Measure/Axis=Axis
+Machine/Measure/Angle=Angle
+Machine/Measure/Surface Height=Surface Height
+Machine/Measure/Surface Angle=Surface Angle
+Machine/Measure/Surface=Surface
+Machine/Measure/Gantry Square=Gantry Square
+
+Machine/Points=Points
+
+Machine/Points/Count=Count: 0
+Machine/Points/Clear=Clear
+Machine/Points/Load ...=Load ...
+Machine/Points/Save ...=Save ...
+Machine/Points/Save STL ...=Save STL ...
+Machine/Points/Save DXF ...=Save DXF ...
+
+Machine/Camera=Камера
+Machine/Camera/Show=Показать камеру
+
+Machine/Camera/Set Offset=Установить Смещение
+Machine/Camera/Set Offset/Mark=Пометить
+Machine/Camera/Set Offset/Read 1=Читать 1
+Machine/Camera/Set Offset/Read 2=Читать 2
+Machine/Camera/Set Offset/Set Offset ...=Установить Смещение ...
+Machine/Camera/Set Offset/Set Offset=Установить Смещение
+Machine/Camera/Set Offset/Calibrate Scale=Калибровка Шкалы
+
+Machine/User Commands=User Commands
+
+Machine/Panel=Panel
+Machine/Panel/Next=Next
+Machine/Panel/Prev=Prev
+Machine/Panel/Select Work=Select Work
+Machine/Panel/Select Machine=Select Machine
+Machine/Panel/Select Motors=Select Motors
+Machine/Panel/Select G-Code=Select G-Code
+Machine/Panel/Panel 1 Show Value=Panel 1 Show Value
+Machine/Panel/Panel 1 Click=Panel 1 Click
+Machine/Panel/Panel 2 Show Value=Panel 2 Show Value
+Machine/Panel/Panel 2 Click=Panel 2 Click
+Machine/Panel/Panel 3 Show Value=Panel 3 Show Value
+Machine/Panel/Panel 3 Click=Panel 3 Click
+Machine/Panel/Panel 4 Show Value=Panel 4 Show Value
+Machine/Panel/Panel 4 Click=Panel 4 Click
+Machine/Panel/Panel 5 Show Value=Panel 5 Show Value
+Machine/Panel/Panel 5 Click=Panel 5 Click
+Machine/Panel/Panel 6 Show Value=Panel 6 Show Value
+Machine/Panel/Panel 6 Click=Panel 6 Click
+Machine/Panel/Panel 7 Show Value=Panel 7 Show Value
+Machine/Panel/Panel 7 Click=Panel 7 Click
+Machine/Panel/Panel 8 Show Value=Panel 8 Show Value
+Machine/Panel/Panel 8 Click=Panel 8 Click
+Machine/Panel/Panel 9 Show Value=Panel 9 Show Value
+Machine/Panel/Panel 9 Click=Panel 9 Click
+Machine/Panel/State Next=State Next
+Machine/Panel/State Prev=State Prev
+Machine/Panel/State First=State First
+Machine/Panel/State Last=State Last
+
+Machine/Controller=Контроллер
+Machine/Controller/Reconnect=Восстанавливать соединение
+Machine/Controller/Reset=Сброс
+Machine/Controller/Firmware Update=Обновить микропрограмму
+
+Machine/Controller/Advanced=Дополнительно
+Machine/Controller/Advanced/Set Parameters ...=Set Parameters ...
+Machine/Controller/Advanced/Check Memory=Проверка Памяти
+Machine/Controller/Advanced/Revert to V1=Вернуться к V1
+
+Help=Помощь
+Help/User Manual ...=User Manual ...
+Help/G-Code Manual ...=G-Code Manual ...
+
+Help/License Management=Менеджер лицензий
+Help/License Management/Licenses ...=Licenses ...
+Help/License Management/Activation Code Generator ...=Генератор кода активации ...
+Help/Check For Updates=Check For Updates
+Help/Show Log ...=Показато лог ...
+Help/About ...=О пограмме ...
+
+;DlgEdit
+DlgEdit/Update=Обновить
+DlgEdit/Verify=Verify
+
+;DlgFind
+DlgFind/Find=Find
+
+;DlgTrans
+DlgTrans/Transformation=Transformation
+DlgTrans/Copy=Копировать
+DlgTrans/Paste=Paste
+DlgTrans/Set As Default=Set As Default
+DlgTrans/Clear=Clear
+DlgTrans/Redraw=Redraw
+DlgTrans/Disable=Запретить
+DlgTrans/Enable=Разрешить
+
+;DlgShift
+DlgShift/Shift=Сдвиг
+DlgShift/Copy From=Копировать Из
+DlgShift/Zero=Zero
+DlgShift/Extents To Zero=Extents To Zero
+DlgShift/Extents To Position=Extents To Position
+DlgShift/Extents To Camera=Extents To Camera
+DlgShift/Center To Zero=Центр На ноль
+DlgShift/Center To Position=Центр на позицию
+DlgShift/Center To Camera=Center To Camera
+DlgShift/G-Code Line To Zero=G-Code Line To Zero
+DlgShift/G-Code Line To Position=G-Code Line To Position
+DlgShift/G-Code Line To Camera=G-Code Line To Camera
+
+;DlgScale
+DlgScale/Scale=Масштаб
+
+;DlgRotate
+DlgRotate/Rotate=Повернуть
+DlgRotate/XY Plane=XY Плоскость
+DlgRotate/YZ Plane=YZ Plane
+DlgRotate/ZX Plane=ZX Plane
+
+;DlgMirror
+DlgMirror/Mirror=Зеркало
+
+;DlgPoints
+DlgPoints/Points=Точка
+DlgPoints/Source=Исходное положение
+DlgPoints/Destination=Назначить
+DlgPoints/Zero=Ноль
+DlgPoints/G-Code Line=G-Code Строка
+DlgPoints/Position=Позиция
+DlgPoints/Camera=Камера
+DlgPoints/Add=Добавить
+DlgPoints/Update=Обновить
+DlgPoints/Delete=Удалить
+DlgPoints/Redraw=Redraw
+DlgPoints/Copy=Copy
+DlgPoints/Paste=Paste
+DlgPoints/Load ...=Загрузить ...
+DlgPoints/Save ...=Сохранить ...
+
+;DlgWarp
+DlgWarp/Warp=Деформация
+DlgWarp/Resolution=Разрешение
+DlgWarp/Count=Рассчитать
+DlgWarp/Clear=Clear
+DlgWarp/Disable=Запретиь
+DlgWarp/Enable=Разрешить
+DlgWarp/From File=From File
+DlgWarp/From Points=From Points
+
+;DlgToolTable
+DlgToolTable/Tool Table=Таблица инструментов
+DlgToolTable/Tool=Инструмент
+DlgToolTable/No=Нет
+DlgToolTable/Diameter=Диаметр
+DlgToolTable/Name=Имя
+DlgToolTable/Offset=Смещение
+DlgToolTable/Toolchange Position=Toolchange Position
+DlgToolTable/Sensor Offset=Sensor Offset
+DlgToolTable/Custom Parameters=Custom Parameters
+DlgToolTable/Skip Tool Measure=Skip Tool Measure
+DlgToolTable/Skip Tool Change=Skip Tool Change
+DlgToolTable/Add=Добавить
+DlgToolTable/Update=Обновить
+DlgToolTable/Delete=Удалить
+DlgToolTable/Import ...=Import ...
+DlgToolTable/Export ...=Export ...
+
+;DlgCoordinateSystems
+DlgCoordinateSystems/Coordinate Systems=Coordinate Systems
+DlgCoordinateSystems/Coordinate System=Coordinate System
+DlgCoordinateSystems/No=No
+DlgCoordinateSystems/Name=Name
+DlgCoordinateSystems/Offset=Offset
+DlgCoordinateSystems/Rotation=Rotation
+DlgCoordinateSystems/Add=Add
+DlgCoordinateSystems/Update=Update
+DlgCoordinateSystems/Delete=Delete
+DlgCoordinateSystems/Import ...=Import ...
+DlgCoordinateSystems/Export ...=Export ...
+
+;DlgCoord
+DlgCoord/Copy From=Копировать Из
+DlgCoord/Zero=Нуль
+DlgCoord/Machine Position=Абс.позиция
+DlgCoord/Work Position=Рабочая позиция
+DlgCoord/Work Offset=Смещение Раб.Поз.
+DlgCoord/G-Code Extents=G-Code Extents
+DlgCoord/G-Code Center=G-Code Center
+DlgCoord/G-Code Line=G-Code Line
+
+;DlgCamera
+DlgCamera/Camera=Камера
+
+;DlgCameraOffset
+DlgCameraOffset/Camera Offset=Смещение камеры
+DlgCameraOffset/Point 1=Точка 1
+DlgCameraOffset/Point 2=Точка 2
+DlgCameraOffset/Scale Calibration Distance=Scale Calibration Distance
+
+;DlgControllerParams
+DlgControllerParams/Controller Parameters=Параметры контроллера
+DlgControllerParams/DHCP=DHCP
+DlgControllerParams/IP=IP
+DlgControllerParams/Mask=Маска
+DlgControllerParams/Port=Порт
+DlgControllerParams/MAC=MAC
+
+;DlgLicenses
+DlgLicenses/Licenses=Лицензия
+DlgLicenses/License List=License List
+DlgLicenses/Import ...=Import ...
+DlgLicenses/Import File ...=Импортировать файл...
+DlgLicenses/Export File ...=Экспортировать файл ...
+
+;DlgActivationCode
+DlgActivationCode/Activation Code Generator=Генератор активации кода
+DlgActivationCode/Device List=Лист устройсв
+DlgActivationCode/Enable Computer=Разрешить компьютер
+DlgActivationCode/Code=Код
+DlgActivationCode/Copy To Clipboard=Копировать в буфер
+
+;DlgLog
+DlgLog/Log=Лог
+DlgLog/Clear=Очистить
+DlgLog/Computer=Компьютер
+DlgLog/Device=Устройство
+DlgLog/USB=USB
+
+;Settings
+Set/General=Общие
+Set/General/Description=Описание
+Set/General/Units=Единица измерения
+Set/General/Metric (mm)=Метрическая (mm)
+Set/General/Imperial (in)=Дюймы (in)
+Set/General/Machine Type=Тип машины
+Set/General/Notes=Примечания
+Set/General/Password=Пароль
+Set/General/Check For Updates=Check For Updates
+
+Set/Connection=Соединение
+Set/Connection/Connection=Соединение
+Set/Connection/USB=USB
+Set/Connection/Network=Network
+Set/Connection/Adapter IP=Adapter IP
+Set/Connection/Primary Controller=Основной контроллер
+Set/Connection/Info=Инфо
+Set/Connection/Path=Путь
+Set/Connection/IP=IP
+Set/Connection/Mask=Маска
+Set/Connection/MAC=MAC
+Set/Connection/DHCP=DHCP
+
+Set/User Interface=Интерфейс
+Set/User Interface/Colors=Colors
+Set/User Interface/Main=Main
+Set/User Interface/Background=Background
+Set/User Interface/Text=Text
+Set/User Interface/Outline=Outline
+Set/User Interface/Skin=Skin
+Set/User Interface/Reset All=Reset All
+Set/User Interface/Match Other=Match Other
+Set/User Interface/Properties=Properties
+Set/User Interface/Gap=Gap
+Set/User Interface/Outline Radius=Outline Radius
+Set/User Interface/Outline Thickness=Outline Thickness
+Set/User Interface/Refresh Rate=Refresh Rate
+Set/User Interface/Line Limit=Предел Линий
+Set/User Interface/Time Limit=Лимит времени
+Set/User Interface/Loop Limit=Ограничение цикла
+Set/User Interface/Run Time Correction=Run Time Correction
+Set/User Interface/Dialogs=Dialogs
+Set/User Interface/Native File Dialogs=Native File Dialogs
+Set/User Interface/Dialog Options="Параметры"
+Set/User Interface/Commands=Commands
+Set/User Interface/Spindle Command=Команда Шпинделя
+Set/User Interface/Coolant Command=Команда Охлаждение
+Set/User Interface/Native=Native
+Set/User Interface/Uses M-Code=Использовать М-Код
+Set/User Interface/Auto Redraw=Auto Redraw
+Set/User Interface/On Program Cmd=On Program Cmd
+Set/User Interface/On Machine Cmd=On Machine Cmd
+
+Set/User Interface:Menu=User Interface:Menu
+Set/User Interface:Menu/Colors=Colors
+Set/User Interface:Menu/Find Match=Find Match
+Set/User Interface:Menu/Title Background=Title Background
+Set/User Interface:Menu/Title Text=Title Text
+Set/User Interface:Menu/Background=Background
+Set/User Interface:Menu/Text=Text
+Set/User Interface:Menu/Properties=Properties
+Set/User Interface:Menu/Title Size=Title Size
+
+Set/User Interface:Toolbars=User Interface:Toolbars
+Set/User Interface:Toolbars/Colors=Colors
+Set/User Interface:Toolbars/Find Match=Find Match
+Set/User Interface:Toolbars/Background=Background
+Set/User Interface:Toolbars/Button=Button
+Set/User Interface:Toolbars/Button Active=Button Active
+Set/User Interface:Toolbars/Button Alert=Button Alert
+Set/User Interface:Toolbars/Properties=Properties
+Set/User Interface:Toolbars/Size=Size
+Set/User Interface:Toolbars/Buttons=Buttons
+Set/User Interface:Toolbars/Hints=Hints
+Set/User Interface:Toolbars/Hide=Hide
+Set/User Interface:Toolbars/Show=Show
+
+Set/User Interface:Position=Пользовательский Интерфейс: Позиция
+Set/User Interface:Position/Colors=Colors
+Set/User Interface:Position/Find Match=Find Match
+Set/User Interface:Position/Background=Background
+Set/User Interface:Position/Work=Work
+Set/User Interface:Position/Machine=Machine
+Set/User Interface:Position/Motors=Motors
+Set/User Interface:Position/GCode=GCode
+Set/User Interface:Position/Button=Button
+Set/User Interface:Position/Button Lim-=Button Lim-
+Set/User Interface:Position/Button Lim+=Button Lim+
+Set/User Interface:Position/Size=Size
+Set/User Interface:Position/Number of Rows=количество строк
+Set/User Interface:Position/Number of Decimals=Количество десятичных знаков
+Set/User Interface:Position/Row=Ось
+Set/User Interface:Position/Commands=Commands
+Set/User Interface:Position/Button=Button
+Set/User Interface:Position/Work Position=Work Position
+Set/User Interface:Position/Coordinate System=Coordinate System
+Set/User Interface:Position/Machine Position=Machine Position
+
+Set/User Interface:Speed=User Interface:Speed
+Set/User Interface:Speed/Colors=Colors
+Set/User Interface:Speed/Find Match=Find Match
+Set/User Interface:Speed/Background=Background
+Set/User Interface:Speed/Value=Value
+Set/User Interface:Speed/Button=Button
+Set/User Interface:Speed/Button Active=Button Active
+Set/User Interface:Speed/Button Alert=Button Alert
+Set/User Interface:Speed/Show=Show
+Set/User Interface:Speed/Hide=Hide
+Set/User Interface:Speed/Size=Size
+Set/User Interface:Speed/Speed=Speed
+Set/User Interface:Speed/Override=Override
+Set/User Interface:Speed/Min=Min
+Set/User Interface:Speed/Max=Max
+Set/User Interface:Speed/Step=Step
+Set/User Interface:Speed/Slider=Slider
+Set/User Interface:Speed/Feed=Feed
+Set/User Interface:Speed/Traverse=Traverse
+Set/User Interface:Speed/Both=Both
+Set/User Interface:Speed/Spindle=Spindle
+Set/User Interface:Speed/Spindle RPM=Spindle RPM
+Set/User Interface:Speed/As Set=As Set
+Set/User Interface:Speed/From Index=From Index
+Set/User Interface:Speed/From Encoder=From Encoder
+
+Set/User Interface:State=User Interface:State
+Set/User Interface:State/Colors=Colors
+Set/User Interface:State/Find Match=Find Match
+Set/User Interface:State/Background=Background
+Set/User Interface:State/Value=Value
+Set/User Interface:State/Label=Label
+Set/User Interface:State/GCode=GCode
+Set/User Interface:State/IO=IO
+Set/User Interface:State/Show=Show
+Set/User Interface:State/Hide=Hide
+Set/User Interface:State/Status LEDs=Status LEDs
+
+Set/User Interface:Jog=User Interface:Jog
+Set/User Interface:Jog/Colors=Colors
+Set/User Interface:Jog/Find Match=Find Match
+Set/User Interface:Jog/Background=Background
+Set/User Interface:Jog/Value=Value
+Set/User Interface:Jog/Button=Button
+Set/User Interface:Jog/Arrows=Arrows
+Set/User Interface:Jog/Properties=Properties
+Set/User Interface:Jog/Hide=Hide
+Set/User Interface:Jog/Show=Show
+Set/User Interface:Jog/Fixed=Fixed
+Set/User Interface:Jog/Size=Size
+Set/User Interface:Jog/XY Cross=XY Cross
+Set/User Interface:Jog/UV Cross=UV Cross
+
+Set/User Interface:3D=User Interface:3D
+Set/User Interface:3D/Colors=Colors
+Set/User Interface:3D/Find Match=Find Match
+Set/User Interface:3D/Background=Background
+Set/User Interface:3D/Axes=Axes
+Set/User Interface:3D/Grid=Grid
+Set/User Interface:3D/Limits=Limits
+Set/User Interface:3D/Extents=Extents
+Set/User Interface:3D/Extents Feed=Extents Feed
+Set/User Interface:3D/Gauges=Gauges
+Set/User Interface:3D/Alpha=Alpha
+Set/User Interface:3D/Thickness=Thickness
+Set/User Interface:3D/Traverse=Traverse
+Set/User Interface:3D/Line=Line
+Set/User Interface:3D/Arc=Arc
+Set/User Interface:3D/Sync=Sync
+Set/User Interface:3D/Probe=Probe
+Set/User Interface:3D/Selected=Selected
+Set/User Interface:3D/Hover=Hover
+Set/User Interface:3D/Completed=Completed
+Set/User Interface:3D/History=History
+Set/User Interface:3D/Position=Position
+Set/User Interface:3D/Simulation=Simulation
+Set/User Interface:3D/G28=G28
+Set/User Interface:3D/G30=G30
+Set/User Interface:3D/Wire=Wire
+Set/User Interface:3D/Wire Skin=Wire Skin
+Set/User Interface:3D/Properties=Properties
+Set/User Interface:3D/Resolution=Resolution
+Set/User Interface:3D/Refresh=Refresh
+Set/User Interface:3D/Fast=Fast
+Set/User Interface:3D/Hide Sub Level=Hide Sub Level
+Set/User Interface:3D/Subs=Subs
+Set/User Interface:3D/MCode=MCode
+Set/User Interface:3D/Handle Size=Handle Size
+Set/User Interface:3D/Tool Size=Tool Size
+Set/User Interface:3D/History Size=History Size
+Set/User Interface:3D/Geometry=Geometry
+Set/User Interface:3D/Select Preset=Select Preset
+Set/User Interface:3D/Normal=Normal
+Set/User Interface:3D/Mirror=Mirror
+Set/User Interface:3D/Lathe=Lathe
+Set/User Interface:3D/Foam Cutter=Foam Cutter
+Set/User Interface:3D/Rotate & Mirror=Rotate & Mirror
+Set/User Interface:3D/Axis System=Axis System
+Set/User Interface:3D/Link=Link
+Set/User Interface:3D/Axis=Axis
+Set/User Interface:3D/Origin=Origin
+Set/User Interface:3D/Orientation=Orientation
+Set/User Interface:3D/Rotation=Rotation
+Set/User Interface:3D/Rotation Offset=Rotation Offset
+Set/User Interface:3D/Rotation Interpolation=Rotation Interpolation
+
+Set/User Interface:GCode=User Interface:GCode
+Set/User Interface:GCode/Colors=Colors
+Set/User Interface:GCode/Find Match=Find Match
+Set/User Interface:GCode/Line No=Line No
+Set/User Interface:GCode/G Word=G Word
+Set/User Interface:GCode/M Word=M Word
+Set/User Interface:GCode/Axis Word=Axis Word
+Set/User Interface:GCode/IJKR Word=IJKR Word
+Set/User Interface:GCode/N Word=N Word
+Set/User Interface:GCode/O Word=O Word
+Set/User Interface:GCode/S Word=S Word
+Set/User Interface:GCode/T Word=T Word
+Set/User Interface:GCode/F Word=F Word
+Set/User Interface:GCode/Numbers=Numbers
+Set/User Interface:GCode/Param=Param
+Set/User Interface:GCode/Expression=Expression
+Set/User Interface:GCode/Comment=Comment
+Set/User Interface:GCode/Script=Script
+Set/User Interface:GCode/Other=Other
+Set/User Interface:GCode/Properties=Properties
+Set/User Interface:GCode/Text Size=Text Size
+Set/User Interface:GCode/MDI=MDI
+Set/User Interface:GCode/MDI Background=MDI Background
+Set/User Interface:GCode/MDI Focus=MDI Focus
+Set/User Interface:GCode/MDI Text=MDI Text
+Set/User Interface:GCode/MDI Text Size=MDI Text Size
+Set/User Interface:GCode/History=History
+
+Set/User Interface:Utilities=User Interface:Utilities
+Set/User Interface:Utilities/Colors=Colors
+Set/User Interface:Utilities/Find Match=Find Match
+Set/User Interface:Utilities/Background=Background
+Set/User Interface:Utilities/Text=Text
+Set/User Interface:Utilities/Button=Button
+Set/User Interface:Utilities/Panels=Panels
+Set/User Interface:Utilities/Embed=Embed
+Set/User Interface:Utilities/Edit=Edit
+Set/User Interface:Utilities/Camera=Camera
+Set/User Interface:Utilities/Log=Log
+
+Set/Shortcuts=Shortcuts
+Set/Shortcuts/Action=Action
+Set/Shortcuts/Code=Code
+Set/Shortcuts/MDI=MDI
+Set/Shortcuts/Pin=Pin
+Set/Shortcuts/Param=Param
+
+Set/Motors=Мотор
+Set/Motors/Step Width=Ширина шага
+Set/Motors/Enable Pin=Активировать Пин
+Set/Motors/Enable=Разрешить
+Set/Motors/Invert=Инвертировать
+Set/Motors/On E-Stop=On E-Stop
+Set/Motors/Dynamic=Динамический
+Set/Motors/Motor=Мотор
+Set/Motors/Axis Output=Выход Оси
+Set/Motors/Reverse=Реверс
+Set/Motors/Invert=Инвертировать
+Set/Motors:StepsPerUnit=Шагов на ед.изм
+Set/Motors:StepsPerUnit/StepsPerUnit=Отмена исправлений
+Set/Motors:Speed=Скорость двигателя
+Set/Motors:Speed/Max Speed=максимальная скорость
+Set/Motors:Acceleration=Motors:Ускорение
+Set/Motors:Acceleration/Max Acceleration=Макс.Ускорение
+Set/Motors:Acceleration/Max Deceleration=Макс.Замедление
+Set/Motors:Backlash=Motors:Люфт
+Set/Motors:Backlash/Backlash=Люфт
+Set/Motors:Backlash/External=Внешний
+Set/Motors:Backlash/Internal=Внутренний
+Set/Motors:Backlash/Simulation=Моделирование
+Set/Motors:Limits=Motors:Лимит
+Set/Motors:Limits/Limit=Лимит
+Set/Motors:Limit Switches=Motors:Концевой выкл.
+Set/Motors:Limit Switches/Limit=Лимит
+Set/Motors:Limit Switches/Limit Pin=Limit Pin
+Set/Motors:Limit Switches/Invert=Invert
+Set/Motors:Limit Switches/EStop=EStop
+
+Set/Motion=Передвижение
+Set/Motion/Maximum Speed=Макс. Скорость
+Set/Motion/Max Acceleration=Макс. Ускорение
+Set/Motion/Max Deceleration=Макс. Замедление
+Set/Motion:Range=Мягкий лимит
+Set/Motion:Range/Range=Диапазон Перемешения
+Set/Motion:Range/Axis=Ось
+Set/Motion:Range/Copy Motor Limits=Copy Motor Limits
+Set/Motion:Blend=Motion:Смешивание
+Set/Motion:Blend/Blend Backlash=Blend Backlash
+Set/Motion:Blend/Disable=Запретить
+Set/Motion:Blend/Precise=Точность
+Set/Motion:Blend/Loose=Loose
+Set/Motion:Blend/Blend Tolerance=Допуск Наложения
+Set/Motion:Blend/Enforce=Enforce
+Set/Motion:Blend/Join Angle=Совместный Угол
+Set/Motion:Blend/Break Angle=Угол меньше
+Set/Motion:Kinematic=Движение: Кинематическое
+Set/Motion:Kinematic/Kinematic=Кинематический
+Set/Motion:Advanced=Motion:Дополнительно
+Set/Motion:Advanced/Cycle Time=Время цикла
+Set/Motion:Advanced/Motion Engine Buffer=Буфер Двигателя Движения
+Set/Motion:Advanced/Device Buffer=Буфер Устройства
+Set/Motion:Advanced/Device Max Packet=Device Max Packet
+Set/Motion:Advanced/Read Ahead=Опережающее чтение
+Set/Motion:Advanced/Curve Tolerance=Допуск Кривой
+
+Set/Jogging=Jogging
+Set/Jogging/Default Speed=Default Speed
+Set/Jogging/Current Speed=Current Speed
+Set/Jogging/Default Step=Default Step
+Set/Jogging/Current Step=Current Step
+Set/Jogging/Default Round=Default Round
+Set/Jogging/Current Round=Current Round
+Set/Jogging/Probe Lock=Probe Lock
+Set/Jogging/Enable=Enable
+Set/Jogging/Jog Pin=Jog Pin
+Set/Jogging/Invert=Invert
+
+Set/Jogging:Keyboard=Jogging:Keyboard
+Set/Jogging:Keyboard/Jogging Keyboard=Jogging Keyboard
+Set/Jogging:Keyboard/Speed=Speed
+Set/Jogging:Keyboard/PotCenter=PotCenter
+Set/Jogging:Keyboard/Timeout=Timeout
+
+Set/Jogging:Handwheel=Jogging:Handwheel
+Set/Jogging:Handwheel/Handwheel=Handwheel
+Set/Jogging:Handwheel/Mode=Mode
+Set/Jogging:Handwheel/Step=Step
+Set/Jogging:Handwheel/Speed=Speed
+Set/Jogging:Handwheel/Round=Round
+Set/Jogging:Handwheel/Wireless Handwheel=Wireless Handwheel
+Set/Jogging:Handwheel/Ctrl Handwheel=Ctrl Handwheel
+Set/Jogging:Handwheel/PPR=PPR
+Set/Jogging:Handwheel/Reverse=Reverse
+
+Set/Input//Output=Вход/Выход
+Set/Input//Output/E-Stop Pin=E-Stop Pin
+Set/Input//Output/Error Pin=Error Pin
+Set/Input//Output/Enable=Enable
+Set/Input//Output/Invert=Инвертировать
+Set/Input//Output/Input Pin=Вход Pin
+Set/Input//Output/Output Pin=Выход Pin
+Set/Input//Output:Spindle=Вход/Выход:Шпиндель
+Set/Input//Output:Spindle/CW//CCW=CW/CCW
+Set/Input//Output:Spindle/Output Pin - On//Off=Выход Pin - On/Off
+Set/Input//Output:Spindle/Output Pin - Direction=Выход Pin - Направление
+Set/Input//Output:Spindle/Output Pin - CW=Output Pin - CW
+Set/Input//Output:Spindle/Output Pin - CCW=Output Pin - CCW
+Set/Input//Output:Spindle/Output Pin - Speed=Выход Pin - Скорость
+Set/Input//Output:Spindle/Min=Мин.
+Set/Input//Output:Spindle/Max=Макс.
+Set/Input//Output:Spindle/Start Delay=Start Delay
+Set/Input//Output:Spindle/Stop Delay=Stop Delay
+Set/Input//Output:Spindle/Frequency=Frequency
+Set/Input//Output:Spindle/Use Frequency=Use Frequency
+Set/Input//Output:Spindle/Freq Min=Freq Min
+Set/Input//Output:Spindle/Freq Max=Freq Max
+Set/Input//Output:Spindle/Step Width=Step Width
+Set/Input//Output:Spindle/PWM=PWM
+Set/Input//Output:Spindle/Use PWM=Use PWM
+Set/Input//Output:Spindle/Frequency=Frequency
+Set/Input//Output:Spindle/RC Servo=RC Servo
+Set/Input//Output:Spindle/Use RC Servo=Use RC Servo
+Set/Input//Output:Spindle/RC Servo Lo=RC Servo Lo
+Set/Input//Output:Spindle/RC Servo Hi=RC Servo Hi
+Set/Input//Output:Spindle/Encoder=Энкодер
+Set/Input//Output:Spindle/PPR=PPR
+Set/Input//Output:Spindle/Reverse=Реверс
+Set/Input//Output:Spindle/Index PPR=Index PPR
+Set/Input//Output:Spindle/Invert=Инвертировать
+Set/Input//Output:Spindle/Debounce=Debounce
+Set/Input//Output:Spindle/Synchronization=Synchronization
+Set/Input//Output:Spindle/Spindle RPM=Spindle RPM
+Set/Input//Output:Spindle/As Set=As Set
+Set/Input//Output:Spindle/From Index=From Index
+Set/Input//Output:Spindle/From Encoder=From Encoder
+Set/Input//Output:Spindle/None=None
+Set/Input//Output:Coolant=Input/Output:Охлаждение
+Set/Input//Output:Coolant/Mist=Туман
+Set/Input//Output:Coolant/Output Pin - Mist=Выход Pin - Туман
+Set/Input//Output:Coolant/Flood=С.О.Ж
+Set/Input//Output:Coolant/Output Pin - Flood=Выход Pin -С.О.Ж
+Set/Input//Output:I2C, TX, Ext=Input/Output:I2C, TX, Ext
+Set/Input//Output:I2C, TX/I2C=I2C
+Set/Input//Output:I2C, TX/Frequency=Frequency
+Set/Input//Output:I2C, TX/TX=TX
+Set/Input//Output:I2C, TX/Baudrate=Baudrate
+Set/Input//Output:I2C, TX/Encoder=Encoder
+Set/Input//Output:I2C, TX/PPR=PPR
+Set/Input//Output:I2C, TX/Reverse=Reverse
+Set/Input//Output:I2C, TX/Ext=Ext
+Set/Input//Output:I2C, TX/SEL1 Pin=SEL1 Pin
+Set/Input//Output:I2C, TX/SEL2 Pin=SEL2 Pin
+Set/Input//Output:I2C, TX/Invert=Invert
+Set/Input//Output:I2C, TX/In Size=In Size
+Set/Input//Output:I2C, TX/Out Size=Out Size
+Set/Input//Output:I2C, TX/Timer=Timer
+
+Set/THC=THC
+Set/THC/Axis=Axis
+Set/THC/Dec Pin=Dec Pin
+Set/THC/Inc Pin=Inc Pin
+Set/THC/OK Pin=OK Pin
+Set/THC/Range Min=Range Min
+Set/THC/Max=Max
+Set/THC/Speed=Speed
+
+Set/Program Options=Program Options
+Set/Program Options/Mode=Mode
+Set/Program Options/Units=Units
+Set/Program Options/Plane=Plane
+Set/Program Options/Distance Mode=Distance Mode
+Set/Program Options/Distance Mode IJK=Distance Mode IJK
+Set/Program Options/Distance Mode ABC=Distance Mode ABC
+Set/Program Options/Cycle Return Mode=Cycle Return Mode
+Set/Program Options/Lathe Mode=Lathe Mode
+Set/Program Options/Speed=Speed
+Set/Program Options/Traverse Speed=Traverse Speed
+Set/Program Options/Traverse Speed ABC=Traverse Speed ABC
+Set/Program Options/Feed Speed=Feed Speed
+Set/Program Options/Spindle Speed=Spindle Speed
+Set/Program Options/Transformation=Transformation
+
+Set/Program Options:Paths=Program Options:Paths
+Set/Program Options:Paths/Paths=Paths
+Set/Program Options:Paths/G-Code Folders=G-Code Folders
+Set/Program Options:Paths/Python=Python
+Set/Program Options:Paths/Python Library=Python Library
+Set/Program Options:Paths/Check=Check
+
+Set/Program Options:Scripts=Program Options:Scripts
+Set/Program Options:Scripts/Command=Command
+Set/Program Options:Scripts/Edit Script=Edit Script
+Set/Program Options:Scripts/M-Code=M-Code
+
+Set/Program Options:Events=Program Options:Events
+Set/Program Options:Events/Start From Line=Start From Line
+Set/Program Options:Events/Restore State=Restore State
+Set/Program Options:Events/Restore Mist=Restore Mist
+Set/Program Options:Events/Restore Flood=Restore Flood
+Set/Program Options:Events/Restore Spindle=Restore Spindle
+Set/Program Options:Events/Restore Position=Restore Position
+Set/Program Options:Events/EStop=EStop
+Set/Program Options:Events/Outputs Off=Outputs Off
+Set/Program Options:Events/Stop Mist=Stop Mist
+Set/Program Options:Events/Stop Flood=Stop Flood
+Set/Program Options:Events/Stop Spindle=Stop Spindle
+Set/Program Options:Events/Script=Script
+Set/Program Options:Events/Edit Script=Edit Script
+Set/Program Options:Events/OnStart=OnStart
+Set/Program Options:Events/OnEnd=OnEnd
+Set/Program Options:Events/OnStop=OnStop
+
+Set/Program Options:Probe & Measure=Program Options:Probe & Measure
+Set/Program Options:Probe & Measure/Probe 1 Pin=Probe 1 Pin
+Set/Program Options:Probe & Measure/Probe 2 Pin=Probe 2 Pin
+Set/Program Options:Probe & Measure/Probe Speed=Probe Speed
+Set/Program Options:Probe & Measure/Low=Low
+Set/Program Options:Probe & Measure/Probe Size Z=Probe Size Z
+Set/Program Options:Probe & Measure/Probe Size XY=Probe Size XY
+Set/Program Options:Probe & Measure/Safe Height=Safe Height
+Set/Program Options:Probe & Measure/Copy Motor Limits=Copy Motor Limits
+
+Set/Program Options:Home=Program Options:Home
+Set/Program Options:Home/Speed=Speed
+Set/Program Options:Home/Low=Low
+Set/Program Options:Home/Order=Order
+Set/Program Options:Home/Direction=Direction
+Set/Program Options:Home/Switch Position=Switch Position
+Set/Program Options:Home/Copy Motor Limits=Copy Motor Limits
+Set/Program Options:Home/Move To=Move To
+Set/Program Options:Home/Switch Click Distance=Switch Click Distance
+
+Set/Program Options:Offsets=Program Options:Offsets
+Set/Program Options:Offsets/Speed=Speed
+Set/Program Options:Offsets/Low=Low
+Set/Program Options:Offsets/Size=Size
+Set/Program Options:Offsets/Safe Height=Safe Height
+Set/Program Options:Offsets/Copy Motor Limits=Copy Motor Limits
+Set/Program Options:Offsets/Sensor Position=Sensor Position
+Set/Program Options:Offsets/Switch Click Distance=Switch Click Distance
+
+Set/Program Options:Tool Change=Program Options:Tool Change
+Set/Program Options:Tool Change/Tool Change=Tool Change
+Set/Program Options:Tool Change/Skip Same Tool=Skip Same Tool
+Set/Program Options:Tool Change/Spindle Check=Spindle Check
+Set/Program Options:Tool Change/Safe Height=Safe Height
+Set/Program Options:Tool Change/Copy Motor Limits=Copy Motor Limits
+Set/Program Options:Tool Change/Position=Position
+Set/Program Options:Tool Change/Action=Action
+Set/Program Options:Tool Change/Message=Message
+Set/Program Options:Tool Change/Pause=Pause
+Set/Program Options:Tool Change/Tool Offset=Tool Offset
+Set/Program Options:Tool Change/Measure Offset=Measure Offset
+Set/Program Options:Tool Change/Set Offset=Set Offset
+Set/Program Options:Tool Change/Set Tooltable=Set Tooltable
+Set/Program Options:Tool Change/Enable Offset=Enable Offset
+Set/Program Options:Tool Change/AutoReturn=AutoReturn
+Set/Program Options:Tool Change/ATC=ATC
+Set/Program Options:Tool Change/Speed For Move=Speed For Move
+Set/Program Options:Tool Change/Unload=Unload
+Set/Program Options:Tool Change/Load=Load
+Set/Program Options:Tool Change/Move In=Move In
+Set/Program Options:Tool Change/Move Out=Move Out
+Set/Program Options:Tool Change/Out Pin=Out Pin
+Set/Program Options:Tool Change/Delay=Delay
+
+Set/Program Options:Gantry Square=Program Options:Gantry Square
+Set/Program Options:Gantry Square/Speed=Speed
+Set/Program Options:Gantry Square/Axis=Axis
+Set/Program Options:Gantry Square/Direction=Direction
+Set/Program Options:Gantry Square/Move=Move
+
+Set/Motor Drivers=Драйвер Мотора
+Set/Motor Drivers/Microstepping=Микрошаговый
+Set/Motor Drivers/Current=Текущий
+
+;Msg
+Unknown error!=Unknown error!
+Error in G-Code!=Error in G-Code!
+Error in import!=Error in import!
+Operation is aborted!=Operation is aborted!
+
+Administrator permission is required.=Administrator permission is required.
+There is a problem accessing settings file.=There is a problem accessing settings file.
+Computer with at least dual core CPU is recommended for this software!=Computer with at least dual core CPU is recommended for this software!
+Computer with at least 1GB memory is recommended for this software!=Computer with at least 1GB memory is recommended for this software!
+Firmware version is not correct!=Firmware version is not correct!
+License is missing or not valid!=License is missing or not valid!
+Without valid license program is limited.=Without valid license program is limited.
+
+Motion engine error!=Motion engine error!
+Motion engine is not ready!=Motion engine is not ready!
+Machine is running!=Machine is running!
+Controller disconnected!=Controller disconnected!
+Controller is not connected!=Controller is not connected!
+Connection with controller failed.=Connection with controller failed.
+Can not move with zero speed.=Can not move with zero speed.
+Can not move from unknown position.=Can not move from unknown position.
+Probe trip received but not expected.=Probe trip received but not expected.
+Probe was expected to trip.=Probe was expected to trip.
+Machine limit reached.=Machine limit reached.
+Synchronization failed.=Synchronization failed.
+
+Please enter number of loops!=Please enter number of loops!
+
+Help file does not exist!=Help file does not exist!
+Your version is=Your version is
+Current version is=Current version is
+You are using latest version=You are using latest version
+Another version is available!=Another version is available!
+Unable to check for updates!=Unable to check for updates!
+
+Error parsing license file!=Error parsing license file!
+Error saving license file!=Error saving license file!
+Please enter license!=Please enter license!
+Paste From Clipboard=Paste From Clipboard
+

@@ -1,0 +1,45 @@
+name "Position"
+
+label "Work position" colorname=#ffa500
+param _x 3 "Work X (R)"
+param _y 3 "Work Y (R)"
+param _z 3 "Work Z (R)"
+param _a 3 "Work A (R)"
+param _b 3 "Work B (R)"
+param _c 3 "Work C (R)"
+param _u 3 "Work U (R)"
+param _v 3 "Work V (R)"
+param _w 3 "Work W (R)"
+
+---
+label "Machine position" colorname=#ffa500
+param _machine_x 3 "Machine X (R)"
+param _machine_y 3 "Machine Y (R)"
+param _machine_z 3 "Machine Z (R)"
+param _machine_a 3 "Machine A (R)"
+param _machine_b 3 "Machine B (R)"
+param _machine_c 3 "Machine C (R)"
+param _machine_u 3 "Machine U (R)"
+param _machine_v 3 "Machine V (R)"
+param _machine_w 3 "Machine W (R)"
+
+---
+label "Probe" colorname=#ffa500
+param _probe B "Probe valid X (R)"
+param _probe_x 3 "Probe X (R)"
+param _probe_y 3 "Probe Y (R)"
+param _probe_z 3 "Probe Z (R)"
+param _probe_a 3 "Probe A (R)"
+param _probe_b 3 "Probe B (R)"
+param _probe_c 3 "Probe C (R)"
+param _probe_u 3 "Probe U (R)"
+param _probe_v 3 "Probe V (R)"
+param _probe_w 3 "Probe W (R)"
+
+---
+label "THC" colorname=#ffa500
+param _thc 3 "THC (R)"
+
+
+
+

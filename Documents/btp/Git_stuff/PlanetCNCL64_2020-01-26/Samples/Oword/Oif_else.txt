@@ -1,0 +1,15 @@
+%
+#<_cnt> = 10
+O<test> while [#<_cnt> GT 0]
+  #<_cnt> = [#<_cnt> - 1]
+  o<bla> if [#<_cnt> GT 7]
+    (print,#<_cnt> is greater than 7)
+  o<bla> elseif [#<_cnt> GT 5]
+    (print,#<_cnt> is greater than 5 and less or equal than 7)
+  o<bla> elseif [#<_cnt> GT 3]
+    (print,#<_cnt> is greater than 3 and less or equal than 5)
+  o<bla> else
+    (print,#<_cnt> is less or equal than 3)
+  o<bla> endif
+O<test> endwhile
+%

@@ -1,0 +1,19 @@
+%
+;send data to Ext2 and read data from Ext2, twice :-) 
+;  M64 arguments:
+;    M64 H<ssel> Q<param> E<count> [L<length>] R<return> D<length>
+
+(arrchr,3000,PlanetCNC\n)
+M64 H2 Q3001 E[#3000] R4000 D[#3000]
+M64 H2 Q4000 E[#3000] R5000 D[#3000]
+
+(print,Length: #3000)
+#<cnt> = 0
+O<loop> while[#<cnt> LT #3000]
+  (print,#<cnt,0>: #[3001+#<cnt>] -> #[4000+#<cnt>] -> #[5000+#<cnt>])
+  #<cnt> = [#<cnt> + 1]
+O<loop> endwhile
+
+%
+
+

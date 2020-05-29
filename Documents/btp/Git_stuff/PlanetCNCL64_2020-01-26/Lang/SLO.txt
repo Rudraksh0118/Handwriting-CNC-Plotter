@@ -1,0 +1,1199 @@
+(name,Slovenščina)
+
+;General
+OK=Potrdi
+Cancel=Prekliči
+Apply=Uveljavi
+Close=Zapri
+True=Da
+False=Ne
+Not Set=Nenastavljeno
+On=Vklop
+Off=Izklop
+Enable=Omogoči
+Disable=Onemogoči
+Script=Skripta
+Firmware=Firmware
+Info=Info
+Warning=Opozorilo
+Error=Napaka
+Abort=Prekini
+Alert=Pozor
+Save=Shrani
+Open=Odpri
+Redraw=Osveži
+Set=Nastavi
+
+Current=Trenutno
+Tool=Orodje
+Current Tool=Trenutno orodje
+Selected Tool=Izbrano orodje
+Dia=Premer
+Coordinate System=Koordinatni sistem
+Current Coordinate System=Trenutni koordinatni sistem
+
+Red=Rdeča
+Green=Zelena
+Blue=Modra
+Alpha=Transparentnost
+Hue=Odtenek
+Saturation=Nasičenost
+Lightness=Lahkost
+
+;Wnd
+Wnd/Work=Delo
+Wnd/Machine=Stroj
+Wnd/Motors=Motor
+Wnd/GCode=G-koda
+Wnd/GCode/Active G-Codes=Aktivne G-kode
+Wnd/GCode/Active M-Codes=Aktivne M-kode
+Wnd/GCode/Other Codes=Druge kode
+Wnd/IO=IO
+Wnd/IO/Output=Izhod
+Wnd/IO/Input=Vhod
+Wnd/IO/Limit=Limit
+Wnd/IO/Jog=Jog
+Wnd/IO/Ctrl=Ctrl
+Wnd/IO/Aux=Aux
+Wnd/IO/Controller=Krmilnik
+
+;Menu
+
+File=Datoteka
+File/Close=Zapri
+File/Open ...=Odpri ...
+File/Open Last File=Odpri zadnjo datoteko
+File/Open File=Odpri datoteko
+File/Open Code=Odpri kodo
+File/Recent Files=Zadnje datoteke
+File/Import G-Code ...=Uvozi G-kodo ...
+File/Import DXF ...=Uvozi DXF ...
+File/Import PLT, HPGL ...=Uvozi PLT, HPGL ...
+File/Import Gerber ...=Uvozi Gerber ...
+File/Import NC Drill ...=Uvozi NC Drill ...
+File/Import CSV ...=Uvozi CSV ...
+File/Import Image ...=Uvozi sliko ...
+File/Import Python Script ...=Uvozi Python skripto ...
+
+File/Generate=Generiraj G-kodo
+File/Export G-Code ...=Izvozi G-kodo ...
+File/Export DXF ...=Izvozi DXF ...
+File/Export CSV ...=Izvozi CSV ...
+File/Run Python Script ...=Zaženi Python skripto ...
+File/Settings ...=Nastavitve ...
+File/Import Settings ...=Uvozi nastavitve ...
+File/Export Settings ...=Izvozi nastavitve ...
+File/Import Profile ...=Uvozi profil ...
+File/Export Profile ...=Izvozi profil ...
+File/Language=Jezik
+File/Exit=Izhod
+
+View=Pogled
+View/Top View=Od zgoraj
+View/Side View=Od strani
+View/Front View=Od spredaj
+View/Perspective View=Perspektiva
+View/Zoom In=Približaj
+View/Zoom Out=Oddalji
+View/Zoom Position=Približaj orodje
+View/Zoom Part=Prikaži kos
+View/Follow Position=Sledi orodju
+View/Center Zero=Center
+
+View/Show=Prikaži
+View/Show/Show Grid=Mreža
+View/Show/Show Axes Lines=Osi
+View/Show/Show Axes Center=Center
+View/Show/Show Limits=Omejitve
+View/Show/Show Extents=Meje
+View/Show/Show Toolpath History=Zgodovina poti
+View/Show/Show Gauges=Indikator
+View/Show/Show Hover=Miška
+View/Show/Show Completed=Končana pot
+View/Show/Show DepthTest=Test Globine
+View/Show/Show Multisample=Vzorčenje
+View/Show/Show Objects=Objekti
+
+View/Panel=Paneli
+View/Panel/Left=Lefo
+View/Panel/3D=3D
+View/Panel/Utilities=Orodje
+View/Panel/Right=Desno
+View/Reset Windows=Ponastavi okna
+View/Refresh=Osveži
+
+Program=Program
+Program/Redraw=Ponovno izriši
+Program/Edit ...=Uredi ...
+
+Program/Lines=Vrstice
+Program/Lines/Next=Naslednja
+Program/Lines/Next Page=Naslednja stran
+Program/Lines/Previous=Prejšnja
+Program/Lines/Previous Page=Prejšnja stran
+Program/Lines/Forward=Naprej
+Program/Lines/Reverse=Nazaj
+Program/Lines/Find ...=Najdi ...
+Program/Lines/Find Next=Najdi naprej
+Program/Lines/Find Comment=Najdi komentar
+Program/Lines/Find Toolchange=Najdi menjavo orodja
+Program/Lines/Find Spindle=Najdi vreteno
+Program/Lines/Optional Block Enabled=Omogoči opcijski blok
+
+Program/MDI=MDI
+Program/MDI/Select=Izberi
+Program/MDI/Show History=Pokaži zgodovino
+Program/MDI/Clear History=Izbriši zgodovino
+
+Program/Bookmarks=Zaznamki
+Program/Bookmarks/Select Next=Izberi naslednjega
+Program/Bookmarks/Select Previous=Izberi prejšnjega
+Program/Bookmarks/Select All=Izberi vse
+Program/Bookmarks/Toggle=Preklopi
+Program/Bookmarks/Clear=Počisti
+Program/Bookmarks/Set=Nastavi
+Program/Bookmarks/Tool Block=Orodje
+Program/Bookmarks/Spindle Block=Vreteno
+Program/Transformation ...=Transformacija ...
+Program/Shift ...=Premik ...
+Program/Scale ...=Povečava ...
+Program/Rotate ...=Rotacija ...
+Program/Mirror ...=Ogledalo ...
+Program/Points ...=Točke ...
+Program/Clear=Ponastavi
+Program/Undo=Prekliči
+Program/Warp ...=Ukrivi ...
+Program/Copy XYZ->UVW=Kopiraj XYZ->UVW
+Program/Copy UVW->XYZ=Kopiraj UVW->XYZ
+Program/Swap XYZ<->UVW=Zamenjaj XYZ<->UVW
+Program/Copy To Clipboard=Kopiraj
+Program/Copy Line To Clipboard=Kopiraj vrstico
+Program/Paste From Clipboard=Prilepi
+
+Machine=Stroj
+Machine/Emergency Stop=Stop v sili
+Machine/Start=Zaženi
+Machine/Stop=Stop
+Machine/Pause=Pavza
+Machine/Test File=Preveri datoteko
+Machine/Test Code=Preveri kodo
+Machine/Start File=Zaženi datoteko
+Machine/Start Code=Zaženi kodo
+
+Machine/Start Options=Možnosti zagona
+Machine/Advanced/Start From Selected Line=Zaženi od izbrane vrstice
+Machine/Advanced/Start From Bookmark To Bookmark=Zaženi od zaznamka do zaznamka
+Machine/Advanced/Start From Beginning To Bookmark=Zaženi od začetka do zaznamka
+Machine/Advanced/Start From Bookmark To End=Zaženi od zaznamka do konca
+Machine/Advanced/Start Loop ...=Zaženi več ponovitev ...
+
+Machine/Overrides=Preglasitve
+Machine/Override/Speed Override Enable=Omogoči preglasitev hitrosti
+
+Machine/Override/Traverse=Hiter premik
+Machine/Override/Traverse/Reset=Ponastavi
+Machine/Override/Traverse/Increase=Povečaj
+Machine/Override/Traverse/Decrease=Zmanjšaj
+
+Machine/Override/Feed=Premik
+Machine/Override/Feed/Reset=Ponastavi
+Machine/Override/Feed/Increase=Povečaj
+Machine/Override/Feed/Decrease=Zmanjšaj
+Machine/Override/Spindle Override Enable=Omogoči preglasitev vretena
+
+Machine/Override/Spindle=Vreteno
+Machine/Override/Spindle/Reset=Ponastavi
+Machine/Override/Spindle/Increase=Povečaj
+Machine/Override/Spindle/Decrease=Zmanjšaj
+Machine/Override/Speed/Show=Prikaži
+Machine/Override/Spindle/Show=Prikaži
+Machine/Override/Pause Enable=Omogoči pavzo
+Machine/Override/Pause Optional=Opcijska pavza
+Machine/Override/Single Step=Posamezen korak
+
+Machine/Motors, Limits, Probe=Motorji, Omejitve, Senzor
+Machine/Motors/Motors Enable=Omogoči notorje
+Machine/Limits/Soft Limits Enable=Omogoči mehke omejitve
+Machine/Limits/Hard Limits Enable=Omogoči trde omejitve
+Machine/Probe/Probe Trigger=Proži senzor
+Machine/Mist=Pršenje
+Machine/Flood=Zalivanje
+Machine/Spindle=Vreteno
+Machine/Spindle/CW=CW
+Machine/Spindle/CCW=CCW
+
+Machine/Output=Izhodi
+Machine/Outputs/Output 1=Izhod 1
+Machine/Outputs/Output 2=Izhod 2
+Machine/Outputs/Output 3=Izhod 3
+Machine/Outputs/Output 4=Izhod 4
+Machine/Outputs/Output 5=Izhod 5
+Machine/Outputs/Output 6=Izhod 6
+Machine/Outputs/Output 7=Izhod 7
+Machine/Outputs/Output 8=Izhod 8
+
+Machine/Output PWM=Izhodi PWM
+
+Machine/Tools=Orodja
+
+Machine/Tools/Change=Zamenjaj
+
+Machine/Tools/Select=Izberi
+Machine/Tools/Edit Tool Table ...=Tabela orodij ...
+
+Machine/Move=Pojdi
+Machine/Move/To Zero=Na nič
+Machine/Move/To ...=Na ...
+Machine/Move/To Value ...=Na vrednost ...
+
+Machine/Move/Axis To Zero=Os na nič
+Machine/Move/Axis To Zero/X=X
+Machine/Move/Axis To Zero/Y=Y
+Machine/Move/Axis To Zero/Z=Z
+Machine/Move/Axis To Zero/A=A
+Machine/Move/Axis To Zero/B=B
+Machine/Move/Axis To Zero/C=C
+Machine/Move/Axis To Zero/U=U
+Machine/Move/Axis To Zero/V=V
+Machine/Move/Axis To Zero/W=W
+Machine/Move/Axis To Zero/XY=XY
+Machine/Move/Axis To Zero/UV=UV
+Machine/Move/To G28=Na G28
+Machine/Move/To G30=Na G30
+Machine/Move/To Selected Line=Na izbrano vrstico
+Machine/Move/To Selected Line XY=Na izbrano vrstico XY
+Machine/Move/Position To Camera=Pozicija na kamero
+Machine/Move/Camera To Position=Kamera na pozicijo
+Machine/Move/Camera To Selected Line XY=Kamera na izbrano vrstico XY
+
+Machine/Machine Position=Strojna pozicija
+Machine/Machine Position/To Zero=Na nič
+Machine/Machine Position/To ...=Na ...
+Machine/Machine Position/To Value ...=Na vrednost ...
+
+Machine/Machine Position/Axis To Zero=Os na nič
+Machine/Machine Position/Axis To Zero/X=X
+Machine/Machine Position/Axis To Zero/Y=Y
+Machine/Machine Position/Axis To Zero/Z=Z
+Machine/Machine Position/Axis To Zero/A=A
+Machine/Machine Position/Axis To Zero/B=B
+Machine/Machine Position/Axis To Zero/C=C
+Machine/Machine Position/Axis To Zero/U=U
+Machine/Machine Position/Axis To Zero/V=V
+Machine/Machine Position/Axis To Zero/W=W
+Machine/Machine Position/Axis To Zero/XY=XY
+Machine/Machine Position/Axis To Zero/UV=UV
+Machine/Machine Position/As G28=Kot G28
+Machine/Machine Position/As G30=Kot G30
+Machine/Machine Position/Reset THC=Reset THC
+
+Machine/Work Position=Delovna pozicija
+Machine/Work Position/To Zero=Na nič
+Machine/Work Position/To ...=Na ...
+Machine/Work Position/To Value ...=Na vrednost ...
+
+Machine/Work Position/Axis To Zero=Os na nič
+Machine/Work Position/Axis To Zero/X=X
+Machine/Work Position/Axis To Zero/Y=Y
+Machine/Work Position/Axis To Zero/Z=Z
+Machine/Work Position/Axis To Zero/A=A
+Machine/Work Position/Axis To Zero/B=B
+Machine/Work Position/Axis To Zero/C=C
+Machine/Work Position/Axis To Zero/U=U
+Machine/Work Position/Axis To Zero/V=V
+Machine/Work Position/Axis To Zero/W=W
+Machine/Work Position/Axis To Zero/XY=XY
+Machine/Work Position/Axis To Zero/UV=UV
+Machine/Work Position/Measure Height=Izmeri
+
+Machine/Work Position/Offset=Ofset
+Machine/Work Position/Offset/To Zero=Na nič
+Machine/Work Position/Offset/To ...=Na ...
+Machine/Work Position/Offset/To Value ...=Na vrednost ...
+
+Machine/Work Position/Offset/Axis To Zero=Os na nič
+Machine/Work Position/Offset/Axis To Zero/X=X
+Machine/Work Position/Offset/Axis To Zero/Y=Y
+Machine/Work Position/Offset/Axis To Zero/Z=Z
+Machine/Work Position/Offset/Axis To Zero/A=A
+Machine/Work Position/Offset/Axis To Zero/B=B
+Machine/Work Position/Offset/Axis To Zero/C=C
+Machine/Work Position/Offset/Axis To Zero/U=U
+Machine/Work Position/Offset/Axis To Zero/V=V
+Machine/Work Position/Offset/Axis To Zero/W=W
+Machine/Work Position/Offset/Axis To Zero/XY=XY
+Machine/Work Position/Offset/Axis To Zero/UV=UV
+Machine/Work Position/Selected Line=Izbrana vrstica
+Machine/Work Position/Selected Line XY=Izbrana vrstica XY
+Machine/Work Position/Camera XY=Kamera XY
+
+Machine/Coordinate System=Koordinatni sistem
+
+Machine/Coordinate System/Select=Izberi
+Machine/Coordinate System/Select/1=1
+Machine/Coordinate System/Select/2=2
+Machine/Coordinate System/Select/3=3
+Machine/Coordinate System/Select/4=4
+Machine/Coordinate System/Select/5=5
+Machine/Coordinate System/Select/6=6
+Machine/Coordinate System/Select/7=7
+Machine/Coordinate System/Select/8=8
+Machine/Coordinate System/Select/9=9
+Machine/Coordinate System/To Zero=Na nič
+Machine/Coordinate System/To ...=Na ...
+Machine/Coordinate System/To Value ...=Na vrednost ...
+
+Machine/Coordinate System/Axis To Zero=Os na nič
+Machine/Coordinate System/Axis To Zero/X=X
+Machine/Coordinate System/Axis To Zero/Y=Y
+Machine/Coordinate System/Axis To Zero/Z=Z
+Machine/Coordinate System/Axis To Zero/A=A
+Machine/Coordinate System/Axis To Zero/B=B
+Machine/Coordinate System/Axis To Zero/C=C
+Machine/Coordinate System/Axis To Zero/U=U
+Machine/Coordinate System/Axis To Zero/V=V
+Machine/Coordinate System/Axis To Zero/W=W
+Machine/Coordinate System/Axis To Zero/XY=XY
+Machine/Coordinate System/Axis To Zero/UV=UV
+Machine/Coordinate System/Measure Height=Izmeri
+
+Machine/Coordinate System/Offset=Ofset
+Machine/Coordinate System/Offset/To Zero=Na nič
+Machine/Coordinate System/Offset/To ...=Na ...
+Machine/Coordinate System/Offset/To Value ...=Na vrednost ...
+
+Machine/Coordinate System/Offset/Axis To Zero=Os na nič
+Machine/Coordinate System/Offset/Axis To Zero/X=X
+Machine/Coordinate System/Offset/Axis To Zero/Y=Y
+Machine/Coordinate System/Offset/Axis To Zero/Z=Z
+Machine/Coordinate System/Offset/Axis To Zero/A=A
+Machine/Coordinate System/Offset/Axis To Zero/B=B
+Machine/Coordinate System/Offset/Axis To Zero/C=C
+Machine/Coordinate System/Offset/Axis To Zero/U=U
+Machine/Coordinate System/Offset/Axis To Zero/V=V
+Machine/Coordinate System/Offset/Axis To Zero/W=W
+Machine/Coordinate System/Offset/Axis To Zero/XY=XY
+Machine/Coordinate System/Offset/Axis To Zero/UV=UV
+Machine/Coordinate System/Edit Coordinate Systems ...=Uredi tabelo ...
+
+Machine/Tool Offset=Orodni ofset
+
+Machine/Tool Offset/Enabled=Enabled
+Machine/Tool Offset/To Zero=Na nič
+Machine/Tool Offset/To ...=Na ...
+Machine/Tool Offset/To Value ...=Na vrednost ...
+
+Machine/Tool Offset/Axis To Zero=Os na nič
+Machine/Tool Offset/Axis To Zero/X=X
+Machine/Tool Offset/Axis To Zero/Y=Y
+Machine/Tool Offset/Axis To Zero/Z=Z
+Machine/Tool Offset/Axis To Zero/A=A
+Machine/Tool Offset/Axis To Zero/B=B
+Machine/Tool Offset/Axis To Zero/C=C
+Machine/Tool Offset/Axis To Zero/U=U
+Machine/Tool Offset/Axis To Zero/V=V
+Machine/Tool Offset/Axis To Zero/W=W
+Machine/Tool Offset/Axis To Zero/XY=XY
+Machine/Tool Offset/Axis To Zero/UV=UV
+Machine/Tool Offset/Measure Length=Izmeri
+Machine/Tool Offset/From Tool Table=Iz tabele orodij
+Machine/Home=Domov
+
+Machine/Measure=Meritve
+Machine/Measure/Inside Corner=Notranji kot
+Machine/Measure/Outside Corner=Zunanji kot
+Machine/Measure/Hole=Luknja
+Machine/Measure/Protrusion=Izboklina
+Machine/Measure/Slot=Slot
+Machine/Measure/Tab=Jeziček
+Machine/Measure/Axis=Os
+Machine/Measure/Angle=Hot
+Machine/Measure/Surface Height=Višina ravnine
+Machine/Measure/Surface Angle=Kot ravnine
+Machine/Measure/Surface=Ravnina
+Machine/Measure/Gantry Square=Naravnaj pravokotnost stroja
+
+Machine/Points=Točke
+
+Machine/Points/Count=Count: 0
+Machine/Points/Clear=Počisti
+Machine/Points/Load ...=Naloži ...
+Machine/Points/Save ...=Shrani ...
+Machine/Points/Save STL ...=Shrani STL ...
+Machine/Points/Save DXF ...=Shrani DXF ...
+
+Machine/Camera=Kamera
+Machine/Camera/Show=Odpri
+
+Machine/Camera/Set Offset=Ofset
+Machine/Camera/Set Offset/Mark=Označi
+Machine/Camera/Set Offset/Read 1=Preberi 1
+Machine/Camera/Set Offset/Read 2=Preberi 2
+Machine/Camera/Set Offset/Set Offset ...=Nastavi ofset ...
+Machine/Camera/Set Offset/Set Offset=Nastavi ofset
+Machine/Camera/Set Offset/Calibrate Scale=Kalibriraj merilo
+
+Machine/User Commands=Uporabniški ukazi
+
+Machine/Panel=Panel
+Machine/Panel/Next=Naslednji
+Machine/Panel/Prev=Prejšnji
+Machine/Panel/Select Work=Izberi delovne
+Machine/Panel/Select Machine=Izberi strojne
+Machine/Panel/Select Motors=Izberi motorne
+Machine/Panel/Select G-Code=Izberi G-kodo
+Machine/Panel/Panel 1 Show Value=Panel 1 prikaži
+Machine/Panel/Panel 1 Click=Panel 1 klikni
+Machine/Panel/Panel 2 Show Value=Panel 2 prikaži
+Machine/Panel/Panel 2 Click=Panel 2 klikni
+Machine/Panel/Panel 3 Show Value=Panel 3 prikaži
+Machine/Panel/Panel 3 Click=Panel 3 klikni
+Machine/Panel/Panel 4 Show Value=Panel 4 prikaži
+Machine/Panel/Panel 4 Click=Panel 4 klikni
+Machine/Panel/Panel 5 Show Value=Panel 5 prikaži
+Machine/Panel/Panel 5 Click=Panel 5 klikni
+Machine/Panel/Panel 6 Show Value=Panel 6 prikaži
+Machine/Panel/Panel 6 Click=Panel 6 klikni
+Machine/Panel/Panel 7 Show Value=Panel 7 prikaži
+Machine/Panel/Panel 7 Click=Panel 7 klikni
+Machine/Panel/Panel 8 Show Value=Panel 8 prikaži
+Machine/Panel/Panel 8 Click=Panel 8 klikni
+Machine/Panel/Panel 9 Show Value=Panel 9 prikaži
+Machine/Panel/Panel 9 Click=Panel 9 klikni
+Machine/Panel/State Next=Naslenji
+Machine/Panel/State Prev=Prejšnji
+Machine/Panel/State First=Prvi
+Machine/Panel/State Last=Zadnji
+
+Machine/Controller=Kontroler
+Machine/Controller/Reconnect=Poveži
+Machine/Controller/Reset=Resetiraj
+Machine/Controller/Firmware Update=Posodobi firmware
+
+Machine/Controller/Advanced=Napredno
+Machine/Controller/Advanced/Set Parameters ...=Nastavi parametre ...
+Machine/Controller/Advanced/Check Memory=Preveri spomin
+Machine/Controller/Advanced/Revert to V1=Vrni na V1
+
+Help=Pomoč
+Help/User Manual ...=Uporabniška navodila ...
+Help/G-Code Manual ...=G-Koda navodila ...
+
+Help/License Management=Licence
+Help/License Management/Licenses ...=Licence ...
+Help/License Management/Activation Code Generator ...=Generiraj aktivacijsko kodo ...
+Help/Check For Updates=Preveri posodobitve
+Help/Show Log ...=Log ...
+Help/About ...=O programu ...
+
+;DlgEdit
+DlgEdit/Update=Posodobi
+DlgEdit/Verify=Preveri
+
+;DlgFind
+DlgFind/Find=Najdi
+
+;DlgTrans
+DlgTrans/Transformation=Transformacija
+DlgTrans/Copy=Kopiraj
+DlgTrans/Paste=Prilepi
+DlgTrans/Set As Default=Nastavi za privzeto
+DlgTrans/Clear=Ponastavi
+DlgTrans/Redraw=Izriši
+DlgTrans/Disable=Onemogoči
+DlgTrans/Enable=Omogoči
+
+;DlgShift
+DlgShift/Shift=Premik
+DlgShift/Copy From=Kopiraj
+DlgShift/Zero=Nič
+DlgShift/Extents To Zero=Meje na nič
+DlgShift/Extents To Position=Meje na pozicijo
+DlgShift/Extents To Camera=Meje na kamero
+DlgShift/Center To Zero=Center na nič
+DlgShift/Center To Position=Center na pozicijo
+DlgShift/Center To Camera=Center na kamero
+DlgShift/G-Code Line To Zero=Vrstica na nič
+DlgShift/G-Code Line To Position=Vrstica na pozicijo
+DlgShift/G-Code Line To Camera=Vrstica na kamero
+
+;DlgScale
+DlgScale/Scale=Povečava
+
+;DlgRotate
+DlgRotate/Rotate=Rotacija
+DlgRotate/XY Plane=XY ravnina
+DlgRotate/YZ Plane=YZ ravnina
+DlgRotate/ZX Plane=ZX ravnina
+
+;DlgMirror
+DlgMirror/Mirror=Ogledalo
+
+;DlgPoints
+DlgPoints/Points=Točke
+DlgPoints/Source=Vir
+DlgPoints/Destination=Cilj
+DlgPoints/Zero=Nič
+DlgPoints/G-Code Line=Vrstica
+DlgPoints/Position=Pozicija
+DlgPoints/Camera=Kamera
+DlgPoints/Add=Dodaj
+DlgPoints/Update=Posodobi
+DlgPoints/Delete=Briši
+DlgPoints/Redraw=Izriši
+DlgPoints/Copy=Kopiraj
+DlgPoints/Paste=Prilepi
+DlgPoints/Load ...=Naloži
+DlgPoints/Save ...=Shrani
+
+;DlgWarp
+DlgWarp/Warp=Ukrivi
+DlgWarp/Resolution=Resolucija
+DlgWarp/Count=Število
+DlgWarp/Clear=Ponastavi
+DlgWarp/Disable=Onemogoči
+DlgWarp/Enable=Omogoči
+DlgWarp/From File=Iz datoteke
+DlgWarp/From Points=Iz točk
+
+;DlgToolTable
+DlgToolTable/Tool Table=Tabela orodij
+DlgToolTable/Tool=Orodje
+DlgToolTable/No=Št.
+DlgToolTable/Diameter=Premer
+DlgToolTable/Name=Ime
+DlgToolTable/Offset=Ofset
+DlgToolTable/Toolchange Position=Menjava orodja
+DlgToolTable/Sensor Offset=Ofset senzorja
+DlgToolTable/Custom Parameters=Uporabniški parametri
+DlgToolTable/Skip Tool Measure=Preskoči merjenje
+DlgToolTable/Skip Tool Change=Preskoči menjavo
+DlgToolTable/Add=Dodaj
+DlgToolTable/Update=Posodobi
+DlgToolTable/Delete=Izbriši
+DlgToolTable/Import ...=Uvozi ...
+DlgToolTable/Export ...=Izvozi ...
+
+;DlgCoordinateSystems
+DlgCoordinateSystems/Coordinate Systems=Koordinatni sistemi
+DlgCoordinateSystems/Coordinate System=Koordinatni sistem
+DlgCoordinateSystems/No=Št.
+DlgCoordinateSystems/Name=Ime
+DlgCoordinateSystems/Offset=Ofset
+DlgCoordinateSystems/Rotation=Rotacija
+DlgCoordinateSystems/Add=Dodaj
+DlgCoordinateSystems/Update=Posodobi
+DlgCoordinateSystems/Delete=Izbriši
+DlgCoordinateSystems/Import ...=Uvozi ...
+DlgCoordinateSystems/Export ...=Izvozi ...
+
+;DlgCoord
+DlgCoord/Copy From=Kopiraj iz
+DlgCoord/Zero=Nič
+DlgCoord/Machine Position=Strojna pozicija
+DlgCoord/Work Position=Delovna pozicija
+DlgCoord/Work Offset=Delovni ofset
+DlgCoord/G-Code Extents=Meje G-kode
+DlgCoord/G-Code Center=Center G-kode
+DlgCoord/G-Code Line=Vrstica G-kode
+
+;DlgCamera
+DlgCamera/Camera=Kamera
+
+;DlgCameraOffset
+DlgCameraOffset/Camera Offset=Ofset kamere
+DlgCameraOffset/Point 1=Točka 1
+DlgCameraOffset/Point 2=Točka 2
+DlgCameraOffset/Scale Calibration Distance=Kalibriraj
+
+;DlgControllerParams
+DlgControllerParams/Controller Parameters=Parametri kontrolerja
+DlgControllerParams/DHCP=DHCP
+DlgControllerParams/IP=IP
+DlgControllerParams/Mask=Maska
+DlgControllerParams/Port=Vrata
+DlgControllerParams/MAC=MAC
+
+;DlgLicenses
+DlgLicenses/Licenses=Licence
+DlgLicenses/License List=Seznam
+DlgLicenses/Import ...=Uvozi
+DlgLicenses/Import File ...=Uvozi datoteko
+DlgLicenses/Export File ...=Izvozi datoteko
+
+;DlgActivationCode
+DlgActivationCode/Activation Code Generator=Aktivacijska koda
+DlgActivationCode/Device List=Seznam naprav
+DlgActivationCode/Enable Computer=Računalnik
+DlgActivationCode/Code=Koda
+DlgActivationCode/Copy To Clipboard=Kopiraj
+
+;DlgLog
+DlgLog/Log=Log
+DlgLog/Clear=Počisti
+DlgLog/Computer=Računalnik
+DlgLog/Device=Naprava
+DlgLog/USB=USB
+
+;Settings
+Set/General=Splošno
+Set/General/Description=Opis
+Set/General/Units=Enote
+Set/General/Metric (mm)=Milimetri
+Set/General/Imperial (in)=Inči
+Set/General/Machine Type=Vrsta stroja
+Set/General/Notes=Zapiski
+Set/General/Password=Geslo
+Set/General/Check For Updates=Preveri posodobitve
+
+Set/Connection=Povezava
+Set/Connection/Connection=Povezava
+Set/Connection/USB=USB
+Set/Connection/Network=Mreža
+Set/Connection/Adapter IP=IP mrežne kartice
+Set/Connection/Primary Controller=Primarni kontroler
+Set/Connection/Info=Podatki
+Set/Connection/Path=Pot
+Set/Connection/IP=IP
+Set/Connection/Mask=Maska
+Set/Connection/MAC=MAC
+Set/Connection/DHCP=DHCP
+
+Set/User Interface=Uporabniški vmesnik
+Set/User Interface/Colors=Barve
+Set/User Interface/Main=Osnovna barva
+Set/User Interface/Background=Ozadje
+Set/User Interface/Text=Tekst
+Set/User Interface/Outline=Obroba
+Set/User Interface/Skin=Koža
+Set/User Interface/Reset All=Ponastavi vse
+Set/User Interface/Match Other=Prilagodi druge
+Set/User Interface/Properties=Lastnosti
+Set/User Interface/Gap=Razmak
+Set/User Interface/Outline Radius=Radij obrobe
+Set/User Interface/Outline Thickness=Debelina obrobe
+Set/User Interface/Refresh Rate=Osvežitev
+Set/User Interface/Line Limit=Omejitev vrstic
+Set/User Interface/Time Limit=Omejitev časa
+Set/User Interface/Loop Limit=Omejitev zank
+Set/User Interface/Run Time Correction=Popravek časa
+Set/User Interface/Dialogs=Dialogi
+Set/User Interface/Native File Dialogs=Nativni dialogi
+Set/User Interface/Dialog Options=Opcije dialogov
+Set/User Interface/Commands=Ukazi
+Set/User Interface/Spindle Command=Ukaz vretena
+Set/User Interface/Coolant Command=Ukaz hlajenja
+Set/User Interface/Native=Nativno
+Set/User Interface/Uses M-Code=Uporabi G-kodo
+Set/User Interface/Auto Redraw=Avtomatsko ozveževanje
+Set/User Interface/On Program Cmd=Ukaz 'Program' menija
+Set/User Interface/On Machine Cmd=Ukaz 'Stroj' menija
+
+Set/User Interface:Menu=User Interface:Menu
+Set/User Interface:Menu/Colors=Barve
+Set/User Interface:Menu/Find Match=Najdi ujemanje
+Set/User Interface:Menu/Title Background=Ozadje naziva
+Set/User Interface:Menu/Title Text=Besedilo naziva
+Set/User Interface:Menu/Background=Ozadje
+Set/User Interface:Menu/Text=Besedilo
+Set/User Interface:Menu/Properties=Lastnosti
+Set/User Interface:Menu/Title Size=Velikost naziva
+
+Set/User Interface:Toolbars=User Interface:Orodna vrstica
+Set/User Interface:Toolbars/Colors=Barve
+Set/User Interface:Toolbars/Find Match=Najdi ujemanje
+Set/User Interface:Toolbars/Background=Ozadje
+Set/User Interface:Toolbars/Button=Gumb
+Set/User Interface:Toolbars/Button Active=Aktiven gumb
+Set/User Interface:Toolbars/Button Alert=Opozorilo
+Set/User Interface:Toolbars/Properties=Lastvosti
+Set/User Interface:Toolbars/Size=Velikost
+Set/User Interface:Toolbars/Buttons=Gumbi
+Set/User Interface:Toolbars/Hints=Namigi
+Set/User Interface:Toolbars/Hide=Skrij
+Set/User Interface:Toolbars/Show=Prikaži
+
+Set/User Interface:Position=Uporabniški vmesnik:Pozicija
+Set/User Interface:Position/Colors=Barve
+Set/User Interface:Position/Find Match=Najdi ujemanje
+Set/User Interface:Position/Background=Ozadje
+Set/User Interface:Position/Work=Delo
+Set/User Interface:Position/Machine=Stroj
+Set/User Interface:Position/Motors=Kotorji
+Set/User Interface:Position/GCode=G-koda
+Set/User Interface:Position/Button=Gumb
+Set/User Interface:Position/Button Lim-=Gumb Lim-
+Set/User Interface:Position/Button Lim+=Gumb Lim+
+Set/User Interface:Position/Size=Velikost
+Set/User Interface:Position/Number of Rows=Število vrstic
+Set/User Interface:Position/Number of Decimals=Število decimalk
+Set/User Interface:Position/Row=Vrstica
+Set/User Interface:Position/Commands=Ukaz
+Set/User Interface:Position/Button=Gumb
+Set/User Interface:Position/Work Position=Delovna pozicija
+Set/User Interface:Position/Coordinate System=Koordinatni sistem
+Set/User Interface:Position/Machine Position=Strojna pozicija
+
+Set/User Interface:Speed=User Interface:Hitrost
+Set/User Interface:Speed/Colors=Barve
+Set/User Interface:Speed/Find Match=Najdi ujemanje
+Set/User Interface:Speed/Background=Ozadje
+Set/User Interface:Speed/Value=Vrednost
+Set/User Interface:Speed/Button=Gumb
+Set/User Interface:Speed/Button Active=Aktiven gumb
+Set/User Interface:Speed/Button Alert=Opozorilo
+Set/User Interface:Speed/Show=Prikaži
+Set/User Interface:Speed/Hide=Skrij
+Set/User Interface:Speed/Size=Velikost
+Set/User Interface:Speed/Speed=Hitrost
+Set/User Interface:Speed/Override=Preglasitev
+Set/User Interface:Speed/Min=Min
+Set/User Interface:Speed/Max=Maks
+Set/User Interface:Speed/Step=Korak
+Set/User Interface:Speed/Slider=Drsnik
+Set/User Interface:Speed/Feed=Premik
+Set/User Interface:Speed/Traverse=Hitri premik
+Set/User Interface:Speed/Both=Oboje
+Set/User Interface:Speed/Spindle=Vreteno
+Set/User Interface:Speed/Spindle RPM=RPM vretena
+Set/User Interface:Speed/As Set=Kot nastavljeno
+Set/User Interface:Speed/From Index=Iz meritve idx
+Set/User Interface:Speed/From Encoder=Iz meritve enc
+
+Set/User Interface:State=User Interface:Stanje
+Set/User Interface:State/Colors=Barve
+Set/User Interface:State/Find Match=Najdi ujemanje
+Set/User Interface:State/Background=Ozadje
+Set/User Interface:State/Value=Vrednost
+Set/User Interface:State/Label=Napis
+Set/User Interface:State/GCode=G-koda
+Set/User Interface:State/IO=IO
+Set/User Interface:State/Show=Prikaži
+Set/User Interface:State/Hide=Skrij
+Set/User Interface:State/Status LEDs=Status LEDs
+
+Set/User Interface:Jog=User Interface:Jog
+Set/User Interface:Jog/Colors=Barve
+Set/User Interface:Jog/Find Match=Najdi ujemanje
+Set/User Interface:Jog/Background=Ozadje
+Set/User Interface:Jog/Value=Vrednost
+Set/User Interface:Jog/Button=Gumb
+Set/User Interface:Jog/Arrows=Puščice
+Set/User Interface:Jog/Properties=Lastnosti
+Set/User Interface:Jog/Hide=Skrij
+Set/User Interface:Jog/Show=Prikaži
+Set/User Interface:Jog/Fixed=Fiksno
+Set/User Interface:Jog/Size=Velikost
+Set/User Interface:Jog/XY Cross=XY križ
+Set/User Interface:Jog/UV Cross=UV križ
+
+Set/User Interface:3D=User Interface:3D
+Set/User Interface:3D/Colors=Barve
+Set/User Interface:3D/Find Match=Najdi ujemanje
+Set/User Interface:3D/Background=Ozadje
+Set/User Interface:3D/Axes=Osi
+Set/User Interface:3D/Grid=Mreža
+Set/User Interface:3D/Limits=Omejitve
+Set/User Interface:3D/Extents=Meje
+Set/User Interface:3D/Extents Feed=Meje premika
+Set/User Interface:3D/Gauges=Kazalci
+Set/User Interface:3D/Alpha=Prosojnost
+Set/User Interface:3D/Thickness=Debelina
+Set/User Interface:3D/Traverse=Hiter premik
+Set/User Interface:3D/Line=Premik
+Set/User Interface:3D/Arc=Lok
+Set/User Interface:3D/Sync=Sinhro.
+Set/User Interface:3D/Probe=Sonda
+Set/User Interface:3D/Selected=Izbran
+Set/User Interface:3D/Hover=Lebdenje
+Set/User Interface:3D/Completed=Zaključen
+Set/User Interface:3D/History=Zgodovina
+Set/User Interface:3D/Position=Pozicija
+Set/User Interface:3D/Simulation=Simulacija
+Set/User Interface:3D/G28=G28
+Set/User Interface:3D/G30=G30
+Set/User Interface:3D/Wire=Wica
+Set/User Interface:3D/Wire Skin=Koža žice
+Set/User Interface:3D/Properties=Lastnosti
+Set/User Interface:3D/Resolution=Ločljivost
+Set/User Interface:3D/Refresh=Osveževanje
+Set/User Interface:3D/Fast=Hitro
+Set/User Interface:3D/Hide Sub Level=Skrij podnivoje
+Set/User Interface:3D/Subs=podprocedure
+Set/User Interface:3D/MCode=M-koda
+Set/User Interface:3D/Handle Size=Velikost
+Set/User Interface:3D/Tool Size=Velikost orodja
+Set/User Interface:3D/History Size=Velikost zgodovine
+Set/User Interface:3D/Geometry=Geometrija
+Set/User Interface:3D/Select Preset=Prednastavljeno
+Set/User Interface:3D/Normal=Normalno
+Set/User Interface:3D/Mirror=Zrcalo
+Set/User Interface:3D/Lathe=Stružnica
+Set/User Interface:3D/Foam Cutter=Stiropor
+Set/User Interface:3D/Rotate & Mirror=Obrni in zrcali
+Set/User Interface:3D/Axis System=Sistem osi
+Set/User Interface:3D/Link=Povezava
+Set/User Interface:3D/Axis=Os
+Set/User Interface:3D/Origin=Izhodišče
+Set/User Interface:3D/Orientation=Orientacija
+Set/User Interface:3D/Rotation=Rotacija
+Set/User Interface:3D/Rotation Offset=Ofset rotacije
+Set/User Interface:3D/Rotation Interpolation=Interpolacija rotacije
+
+Set/User Interface:GCode=User Interface:G-koda
+Set/User Interface:GCode/Colors=Barve
+Set/User Interface:GCode/Find Match=Najdi ujemanje
+Set/User Interface:GCode/Line No=Številka
+Set/User Interface:GCode/G Word=G beseda
+Set/User Interface:GCode/M Word=M beseda
+Set/User Interface:GCode/Axis Word=Os beseda
+Set/User Interface:GCode/IJKR Word=IJKR beseda
+Set/User Interface:GCode/N Word=N beseda
+Set/User Interface:GCode/O Word=O beseda
+Set/User Interface:GCode/S Word=S beseda
+Set/User Interface:GCode/T Word=T beseda
+Set/User Interface:GCode/F Word=F beseda
+Set/User Interface:GCode/Numbers=Cifre
+Set/User Interface:GCode/Param=Parameter
+Set/User Interface:GCode/Expression=Izraz
+Set/User Interface:GCode/Comment=Komentar
+Set/User Interface:GCode/Script=Skripta
+Set/User Interface:GCode/Other=Drugo
+Set/User Interface:GCode/Properties=Lastnosti
+Set/User Interface:GCode/Text Size=Velikost teksta
+Set/User Interface:GCode/MDI=MDI
+Set/User Interface:GCode/MDI Background=MDI ozadje
+Set/User Interface:GCode/MDI Focus=MDI fokus
+Set/User Interface:GCode/MDI Text=MDI tekst
+Set/User Interface:GCode/MDI Text Size=Velikost MDI teksta
+Set/User Interface:GCode/History=Zgodovina
+
+Set/User Interface:Utilities=User Interface:Orodja
+Set/User Interface:Utilities/Colors=Barve
+Set/User Interface:Utilities/Find Match=Najdi ujemanje
+Set/User Interface:Utilities/Background=Ozadje
+Set/User Interface:Utilities/Text=Tekst
+Set/User Interface:Utilities/Button=Gumb
+Set/User Interface:Utilities/Panels=Paneli
+Set/User Interface:Utilities/Embed=Vgradi
+Set/User Interface:Utilities/Edit=Uredi
+Set/User Interface:Utilities/Camera=Kamera
+Set/User Interface:Utilities/Log=Log
+
+Set/Shortcuts=Bližnjice
+Set/Shortcuts/Action=Ukaz
+Set/Shortcuts/Code=Koda
+Set/Shortcuts/MDI=MDI
+Set/Shortcuts/Pin=Pin
+Set/Shortcuts/Param=Param
+
+Set/Motors=Motorji
+Set/Motors/Step Width=Širina pulza
+Set/Motors/Enable Pin=Pin za enable
+Set/Motors/Enable=Omogoči
+Set/Motors/Invert=Obrni pulz
+Set/Motors/On E-Stop=Na e-stop
+Set/Motors/Dynamic=Dinamično
+Set/Motors/Motor=Motor
+Set/Motors/Axis Output=Izhod
+Set/Motors/Reverse=Smer
+Set/Motors/Invert=Obrni pulz
+Set/Motors:StepsPerUnit=Motorji:Koraki na enoto
+Set/Motors:StepsPerUnit/StepsPerUnit=Koraki na enoto
+Set/Motors:Speed=Motorji:Hitrost
+Set/Motors:Speed/Max Speed=Največja hitrost
+Set/Motors:Acceleration=Motorji:Pospešek
+Set/Motors:Acceleration/Max Acceleration=Največji pospešek
+Set/Motors:Acceleration/Max Deceleration=Največji pojemek
+Set/Motors:Backlash=Motorji:Zračnost
+Set/Motors:Backlash/Backlash=Zračnost
+Set/Motors:Backlash/External=Eksterni
+Set/Motors:Backlash/Internal=Interni
+Set/Motors:Backlash/Simulation=Simulacija
+Set/Motors:Limits=Motorji:Meje
+Set/Motors:Limits/Limit=Meja
+Set/Motors:Limit Switches=Motorji:Končna stikala
+Set/Motors:Limit Switches/Limit=Meja
+Set/Motors:Limit Switches/Limit Pin=Limit pin
+Set/Motors:Limit Switches/Invert=Obrni signal
+Set/Motors:Limit Switches/EStop=EStop
+
+Set/Motion=Gibanje
+Set/Motion/Maximum Speed=Največja hitrost
+Set/Motion/Max Acceleration=Največji pospešek
+Set/Motion/Max Deceleration=Največji pojemek
+Set/Motion:Range=Gibanje:Razpon
+Set/Motion:Range/Range=Razpon
+Set/Motion:Range/Axis=Os
+Set/Motion:Range/Copy Motor Limits=Kopiraj omejitve motorjev
+Set/Motion:Blend=Gibanje:Blendi
+Set/Motion:Blend/Blend Backlash=Blend zračnosti
+Set/Motion:Blend/Disable=Onemogoči
+Set/Motion:Blend/Precise=Natančno
+Set/Motion:Blend/Loose=Ohlapno
+Set/Motion:Blend/Blend Tolerance=Toleranca
+Set/Motion:Blend/Enforce=Uveljavi
+Set/Motion:Blend/Join Angle=Združitveni kot
+Set/Motion:Blend/Break Angle=Razdiralni kot
+Set/Motion:Kinematic=Gibanje:Kinematika
+Set/Motion:Kinematic/Kinematic=Kinematika
+Set/Motion:Advanced=Gibanje:Napredno
+Set/Motion:Advanced/Cycle Time=Čas cikla
+Set/Motion:Advanced/Motion Engine Buffer=Velikost buferja
+Set/Motion:Advanced/Device Buffer=Bufer naprave
+Set/Motion:Advanced/Device Max Packet=Največja št. paketov
+Set/Motion:Advanced/Read Ahead=Branje v naprej
+Set/Motion:Advanced/Curve Tolerance=Toleranca krivulje
+
+Set/Jogging=Joging
+Set/Jogging/Default Speed=Privzeta hitrost
+Set/Jogging/Current Speed=Trenutna hitrost
+Set/Jogging/Default Step=Privzet korak
+Set/Jogging/Current Step=Trenuten korak
+Set/Jogging/Default Round=Privzeta zaokrožitev
+Set/Jogging/Current Round=Trenutna zaokrožitev
+Set/Jogging/Probe Lock=Zaklep sonde
+Set/Jogging/Enable=Omogoči
+Set/Jogging/Jog Pin=Jog pin
+Set/Jogging/Invert=Obrni signal
+
+Set/Jogging:Keyboard=Joging:Tipkovnica
+Set/Jogging:Keyboard/Jogging Keyboard=Joging tipkovnica
+Set/Jogging:Keyboard/Speed=Hitrost
+Set/Jogging:Keyboard/PotCenter=Center potenciometra
+Set/Jogging:Keyboard/Timeout=Čas
+
+Set/Jogging:Handwheel=Joging:Kolo
+Set/Jogging:Handwheel/Handwheel=Joging kolo
+Set/Jogging:Handwheel/Mode=Način
+Set/Jogging:Handwheel/Step=Korak
+Set/Jogging:Handwheel/Speed=Hitrost
+Set/Jogging:Handwheel/Round=Zaokr.
+Set/Jogging:Handwheel/Wireless Handwheel=Brezžično kolo
+Set/Jogging:Handwheel/Ctrl Handwheel=Ctrl kolo
+Set/Jogging:Handwheel/PPR=PPR
+Set/Jogging:Handwheel/Reverse=Obrni
+
+Set/Input//Output=Vhodi/Izhodi
+Set/Input//Output/E-Stop Pin=Pin E-Stop
+Set/Input//Output/Error Pin=Pin napaka
+Set/Input//Output/Enable=Omogoči
+Set/Input//Output/Invert=Obrni signal
+Set/Input//Output/Input Pin=Pin vhod
+Set/Input//Output/Output Pin=Pin izhod
+Set/Input//Output:Spindle=Vhodi/Izhodi:Vreteno
+Set/Input//Output:Spindle/CW//CCW=CW/CCW
+Set/Input//Output:Spindle/Output Pin - On//Off=Pin za vklop/izklop
+Set/Input//Output:Spindle/Output Pin - Direction=Pin za smer
+Set/Input//Output:Spindle/Output Pin - CW=Pin CW
+Set/Input//Output:Spindle/Output Pin - CCW=Pin CCW
+Set/Input//Output:Spindle/Output Pin - Speed=Pin za hitrost
+Set/Input//Output:Spindle/Min=Min
+Set/Input//Output:Spindle/Max=Maks
+Set/Input//Output:Spindle/Start Delay=Zakasnitev vklopa
+Set/Input//Output:Spindle/Stop Delay=Zakasnitev izklopa
+Set/Input//Output:Spindle/Frequency=Frekvenca
+Set/Input//Output:Spindle/Use Frequency=Uporabi Frekvenco
+Set/Input//Output:Spindle/Freq Min=Min. frek.
+Set/Input//Output:Spindle/Freq Max=Maks. frek.
+Set/Input//Output:Spindle/Step Width=Širina
+Set/Input//Output:Spindle/PWM=PWM
+Set/Input//Output:Spindle/Use PWM=Uporabi PWM
+Set/Input//Output:Spindle/Frequency=Frekvenca
+Set/Input//Output:Spindle/RC Servo=RC servo
+Set/Input//Output:Spindle/Use RC Servo=Uporabi RC servo
+Set/Input//Output:Spindle/RC Servo Lo=Min.
+Set/Input//Output:Spindle/RC Servo Hi=Maks.
+Set/Input//Output:Spindle/Encoder=Enkoder
+Set/Input//Output:Spindle/PPR=Pulzi na obrat
+Set/Input//Output:Spindle/Reverse=Obrni
+Set/Input//Output:Spindle/Index PPR=Pulzi na obrat
+Set/Input//Output:Spindle/Invert=Obrni signal
+Set/Input//Output:Spindle/Debounce=Odprava motenj
+Set/Input//Output:Spindle/Synchronization=Sinhronizacija
+Set/Input//Output:Spindle/Spindle RPM=Obrati
+Set/Input//Output:Spindle/As Set=Kot nastavljeno
+Set/Input//Output:Spindle/From Index=Indeks
+Set/Input//Output:Spindle/From Encoder=Enkoder
+Set/Input//Output:Spindle/None=Brez
+Set/Input//Output:Coolant=Vhodi/Izhodi:Hlajenje
+Set/Input//Output:Coolant/Mist=Megla
+Set/Input//Output:Coolant/Output Pin - Mist=Pin za meglo
+Set/Input//Output:Coolant/Flood=Zalivanje
+Set/Input//Output:Coolant/Output Pin - Flood=Pin za zalivanje
+Set/Input//Output:I2C, TX, Ext=Input/Output:I2C, TX, Ext
+Set/Input//Output:I2C, TX/I2C=I2C
+Set/Input//Output:I2C, TX/Frequency=Frekvenca
+Set/Input//Output:I2C, TX/TX=TX
+Set/Input//Output:I2C, TX/Baudrate=Hitrost
+Set/Input//Output:I2C, TX/Encoder=Enkoder
+Set/Input//Output:I2C, TX/PPR=PPR
+Set/Input//Output:I2C, TX/Reverse=Obrni
+Set/Input//Output:I2C, TX/Ext=Ext
+Set/Input//Output:I2C, TX/SEL1 Pin=SEL1 pin
+Set/Input//Output:I2C, TX/SEL2 Pin=SEL2 pin
+Set/Input//Output:I2C, TX/Invert=Obrni signal
+Set/Input//Output:I2C, TX/In Size=Vhodno št.
+Set/Input//Output:I2C, TX/Out Size=Izhodno št.
+Set/Input//Output:I2C, TX/Timer=Časovnik
+
+Set/THC=THC
+Set/THC/Axis=Os
+Set/THC/Dec Pin=Dol pin
+Set/THC/Inc Pin=Gor pin
+Set/THC/OK Pin=OK pin
+Set/THC/Range Min=Razpon min
+Set/THC/Max=maks
+Set/THC/Speed=Hitrost
+
+Set/Program Options=Programske Opcije
+Set/Program Options/Mode=Stanje
+Set/Program Options/Units=Enote
+Set/Program Options/Plane=Ravnina
+Set/Program Options/Distance Mode=Način za razdaljo
+Set/Program Options/Distance Mode IJK=Način za razdaljo IJK
+Set/Program Options/Distance Mode ABC=Način za razdaljo ABC
+Set/Program Options/Cycle Return Mode=Vrnitev po ciklu
+Set/Program Options/Lathe Mode=Stružniški način
+Set/Program Options/Speed=Hitrost
+Set/Program Options/Traverse Speed=Hiter premik
+Set/Program Options/Traverse Speed ABC=Hiter premik ABC
+Set/Program Options/Feed Speed=Rezalni premik
+Set/Program Options/Spindle Speed=Hitrost vretena
+Set/Program Options/Transformation=Transformacija
+
+Set/Program Options:Paths=Program Options:Poti
+Set/Program Options:Paths/Paths=Poti
+Set/Program Options:Paths/G-Code Folders=Poti G-kode
+Set/Program Options:Paths/Python=Python
+Set/Program Options:Paths/Python Library=Python knjižnica
+Set/Program Options:Paths/Check=Preveri
+
+Set/Program Options:Scripts=Program Options:Skripte
+Set/Program Options:Scripts/Command=Ukaz
+Set/Program Options:Scripts/Edit Script=Uredi
+Set/Program Options:Scripts/M-Code=M-kode
+
+Set/Program Options:Events=Program Options:Dogodki
+Set/Program Options:Events/Start From Line=Zaženi od izbrane vrstice
+Set/Program Options:Events/Restore State=Obnovi stanje
+Set/Program Options:Events/Restore Mist=Obnovi meglo
+Set/Program Options:Events/Restore Flood=Obnovi zalivanje
+Set/Program Options:Events/Restore Spindle=Obnovi vreteno
+Set/Program Options:Events/Restore Position=Obnovi pozicijo
+Set/Program Options:Events/EStop=EStop
+Set/Program Options:Events/Outputs Off=Ugasni izhode
+Set/Program Options:Events/Stop Mist=Ugasni meglo
+Set/Program Options:Events/Stop Flood=Ugasni zalivanje
+Set/Program Options:Events/Stop Spindle=Ugasni vreteno
+Set/Program Options:Events/Script=Kripta
+Set/Program Options:Events/Edit Script=Uredi
+Set/Program Options:Events/OnStart=Ob štartu
+Set/Program Options:Events/OnEnd=Ob koncu
+Set/Program Options:Events/OnStop=Ob ustavljanju
+
+Set/Program Options:Probe & Measure=Program Options:Sonda in meritve
+Set/Program Options:Probe & Measure/Probe 1 Pin=Sonda pin
+Set/Program Options:Probe & Measure/Probe 2 Pin=Sonda pin 2
+Set/Program Options:Probe & Measure/Probe Speed=Hitrost
+Set/Program Options:Probe & Measure/Low=Nizka
+Set/Program Options:Probe & Measure/Probe Size Z=Velikost sonde Z
+Set/Program Options:Probe & Measure/Probe Size XY=Velikost sonde XY
+Set/Program Options:Probe & Measure/Safe Height=Varna višina
+Set/Program Options:Probe & Measure/Copy Motor Limits=Kopiraj limite motorjev
+
+Set/Program Options:Home=Program Options:Home
+Set/Program Options:Home/Speed=Hitrost
+Set/Program Options:Home/Low=Nizka
+Set/Program Options:Home/Order=Vrstni red
+Set/Program Options:Home/Direction=Smer
+Set/Program Options:Home/Switch Position=Pozicija stikala
+Set/Program Options:Home/Copy Motor Limits=Kopiraj limite motorjev
+Set/Program Options:Home/Move To=Premakni na
+Set/Program Options:Home/Switch Click Distance=Razdalja stikala
+
+Set/Program Options:Offsets=Program Options:Ofseti
+Set/Program Options:Offsets/Speed=Hitrost
+Set/Program Options:Offsets/Low=Nizka
+Set/Program Options:Offsets/Size=Velikost
+Set/Program Options:Offsets/Safe Height=Varna višina
+Set/Program Options:Offsets/Copy Motor Limits=Kopiraj limite motorjev
+Set/Program Options:Offsets/Sensor Position=Pozicija senzorja
+Set/Program Options:Offsets/Switch Click Distance=Razdalja stikala
+
+Set/Program Options:Tool Change=Program Options:Menjava orodja
+Set/Program Options:Tool Change/Tool Change=Menjava orodja
+Set/Program Options:Tool Change/Skip Same Tool=Preskoči isto orodje
+Set/Program Options:Tool Change/Spindle Check=Preveri vreteno
+Set/Program Options:Tool Change/Safe Height=Varna višina
+Set/Program Options:Tool Change/Copy Motor Limits=Kopiraj limite motorjev
+Set/Program Options:Tool Change/Position=Pozicija
+Set/Program Options:Tool Change/Action=Akcija
+Set/Program Options:Tool Change/Message=Sporočilo
+Set/Program Options:Tool Change/Pause=Pavza
+Set/Program Options:Tool Change/Tool Offset=Ofset orodja
+Set/Program Options:Tool Change/Measure Offset=Izmeri ofset
+Set/Program Options:Tool Change/Set Offset=Nastavi ofset
+Set/Program Options:Tool Change/Set Tooltable=Nastavi tabelo
+Set/Program Options:Tool Change/Enable Offset=Omogoči ofset
+Set/Program Options:Tool Change/AutoReturn=Vrnitev
+Set/Program Options:Tool Change/ATC=ATC
+Set/Program Options:Tool Change/Speed For Move=Hitrost za premik
+Set/Program Options:Tool Change/Unload=Odloži
+Set/Program Options:Tool Change/Load=Naloži
+Set/Program Options:Tool Change/Move In=Premik noter
+Set/Program Options:Tool Change/Move Out=Premik ven
+Set/Program Options:Tool Change/Out Pin=izhodni pin
+Set/Program Options:Tool Change/Delay=Zakas.
+
+Set/Program Options:Gantry Square=Program Options:Pravokotnost stroja
+Set/Program Options:Gantry Square/Speed=Hitrost
+Set/Program Options:Gantry Square/Axis=Os
+Set/Program Options:Gantry Square/Direction=Smer
+Set/Program Options:Gantry Square/Move=Premik
+
+Set/Motor Drivers=Gonilniki za motorje
+Set/Motor Drivers/Microstepping=Mikrokorak
+Set/Motor Drivers/Current=Največji tok
+
+;Msg
+Unknown error!=Neznana napaka!
+Error in G-Code!=Napaka v g-kodi!
+Error in import!=Napaka med uvozom!
+Operation is aborted!=Operacija preklicana!
+
+Administrator permission is required.=Administratorske pravice so potrebne.
+There is a problem accessing settings file.=Težava z dostopom do nastavitvenih datotek.
+Computer with at least dual core CPU is recommended for this software!=Computer with at least dual core CPU is recommended for this software!
+Computer with at least 1GB memory is recommended for this software!=Computer with at least 1GB memory is recommended for this software!
+Firmware version is not correct!=Firmware verzija ni pravilna!
+License is missing or not valid!=Licnca manjka ali ni pravilna!
+Without valid license program is limited.=Brez licence je program omejen.
+
+Motion engine error!=Napaka motion engina!
+Motion engine is not ready!=Motion engine ni pripravljen!
+Machine is running!=Stroj je v pogonu!
+Controller disconnected!=Kontroler je izgubil povezavo!
+Controller is not connected!=Kontroler ni povezan!
+Connection with controller failed.=Napaka v povezavi s kontrolerjem.
+Can not move with zero speed.=Premik s hutrostjo nič ni mogoč.
+Can not move from unknown position.=Premik iz neznane pozicije ni mogoč.
+Probe trip received but not expected.=Sonda se je nepričakovano prožila.
+Probe was expected to trip.=Sonda bi se morala prožiti.
+Machine limit reached.=Omejitve stroja presežene.
+Synchronization failed.=Namapa v sinhronizaciji.
+
+Please enter number of loops!=Vnesi število ponovitev!
+
+Help file does not exist!=Datoteka s pomočjo ne obstaja!
+Your version is=Tvoja verzija je
+Current version is=Zadnja verzija je
+You are using latest version=Imaš zadnjo verzijo
+Another version is available!=Nova verzija je na voljo!
+Unable to check for updates!=Preverjanje verzije ni uspelo!
+
+Error parsing license file!=Napaka pri branju licence!
+Error saving license file!=Napaka pri shranjevanju licence!
+Please enter license!=Vnesi licenco!
+Paste From Clipboard=Prilepi
+

@@ -1,0 +1,12 @@
+%
+#<_wh> = 5
+O<w> while [#<_wh>]
+  (print,W: #<_wh>)
+  #<_wh> = [#<_wh> - 1]
+  #<_rp> = 3
+  O<r> repeat[3]
+    (print,  r: #<_rp>)
+    #<_rp> = [#<_rp> - 1]
+  O<r> endrepeat
+O<w> endwhile
+%

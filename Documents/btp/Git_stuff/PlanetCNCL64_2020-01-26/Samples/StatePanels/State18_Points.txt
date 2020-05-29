@@ -1,0 +1,25 @@
+name "Points"
+
+label "Points" colorname=#ffa500
+param _pointcnt 0 "Point Count (R)"
+---
+param _point_x_num|_pointcnt 3 "Last Point X (R)"
+param _point_y_num|_pointcnt 3 "Last Point Y (R)"
+param _point_z_num|_pointcnt 3 "Last Point Z (R)"
+param _point_a_num|_pointcnt 3 "Last Point A (R)"
+param _point_b_num|_pointcnt 3 "Last Point B (R)"
+param _point_c_num|_pointcnt 3 "Last Point C (R)"
+param _point_u_num|_pointcnt 3 "Last Point U (R)"
+param _point_v_num|_pointcnt 3 "Last Point V (R)"
+param _point_w_num|_pointcnt 3 "Last Point W (R)"
+---
+param _point_x_num|0 3 "First Point X (R)"
+param _point_y_num|0 3 "First Point Y (R)"
+param _point_z_num|0 3 "First Point Z (R)"
+param _point_a_num|0 3 "First Point A (R)"
+param _point_b_num|0 3 "First Point B (R)"
+param _point_c_num|0 3 "First Point C (R)"
+param _point_u_num|0 3 "First Point U (R)"
+param _point_v_num|0 3 "First Point V (R)"
+param _point_w_num|0 3 "First Point W (R)"
+

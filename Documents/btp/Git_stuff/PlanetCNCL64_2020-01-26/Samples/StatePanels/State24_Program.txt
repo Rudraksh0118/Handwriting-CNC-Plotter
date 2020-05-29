@@ -1,0 +1,85 @@
+name "Program"
+
+label "GCode" colorname=#ffa500
+param _prog_size 0 "Size (R)"
+param _prog_linecount 0 "Lines (R)"
+param _prog_totallen 1 "Length (R)"
+param _prog_totaltime T "Run Time (R)"
+---
+param _prog_linelimit 0 "Line Limit (R)"
+param _prog_looplimit 0 "Loop Limit (R)"
+param _prog_loadtime T "Load Time (R)"
+---
+label "Speed & Spindle" colorname=#ffa500
+param _prog_minspeed 2 "Min Speed (R)"
+param _prog_maxspeed 2 "Max Speed (R)"
+param _prog_minspindle 1 "Min Spindle (R)"
+param _prog_maxspindle 1 "Max Spindle (R)"
+---
+label "Min" colorname=#ffa500
+param _prog_min_x 3 "Min X (R)"
+param _prog_min_y 3 "Min Y (R)"
+param _prog_min_z 3 "Min Z (R)"
+param _prog_min_a 3 "Min A (R)"
+param _prog_min_b 3 "Min B (R)"
+param _prog_min_c 3 "Min C (R)"
+param _prog_min_u 3 "Min U (R)"
+param _prog_min_v 3 "Min V (R)"
+param _prog_min_w 3 "Min W (R)"
+---
+label "Max" colorname=#ffa500
+param _prog_max_x 3 "Max X (R)"
+param _prog_max_y 3 "Max Y (R)"
+param _prog_max_z 3 "Max Z (R)"
+param _prog_max_a 3 "Max A (R)"
+param _prog_max_b 3 "Max B (R)"
+param _prog_max_c 3 "Max C (R)"
+param _prog_max_u 3 "Max U (R)"
+param _prog_max_v 3 "Max V (R)"
+param _prog_max_w 3 "Max W (R)"
+---
+label "MinTraverse" colorname=#ffa500
+param _prog_mintrav_x 3 "MinTrav X (R)"
+param _prog_mintrav_y 3 "MinTrav Y (R)"
+param _prog_mintrav_z 3 "MinTrav Z (R)"
+param _prog_mintrav_a 3 "MinTrav A (R)"
+param _prog_mintrav_b 3 "MinTrav B (R)"
+param _prog_mintrav_c 3 "MinTrav C (R)"
+param _prog_mintrav_u 3 "MinTrav U (R)"
+param _prog_mintrav_v 3 "MinTrav V (R)"
+param _prog_mintrav_w 3 "MinTrav W (R)"
+---
+label "MaxTraverse" colorname=#ffa500
+param _prog_maxtrav_x 3 "MaxTrav X"
+param _prog_maxtrav_y 3 "MaxTrav Y"
+param _prog_maxtrav_z 3 "MaxTrav Z"
+param _prog_maxtrav_a 3 "MaxTrav A"
+param _prog_maxtrav_b 3 "MaxTrav B"
+param _prog_maxtrav_c 3 "MaxTrav C"
+param _prog_maxtrav_u 3 "MaxTrav U"
+param _prog_maxtrav_v 3 "MaxTrav V"
+param _prog_maxtrav_w 3 "MaxTrav W"
+---
+label "MinFeed" colorname=#ffa500
+param _prog_minfeed_x 3 "MinFeed X (R)"
+param _prog_minfeed_y 3 "MinFeed Y (R)"
+param _prog_minfeed_z 3 "MinFeed Z (R)"
+param _prog_minfeed_a 3 "MinFeed A (R)"
+param _prog_minfeed_b 3 "MinFeed B (R)"
+param _prog_minfeed_c 3 "MinFeed C (R)"
+param _prog_minfeed_u 3 "MinFeed U (R)"
+param _prog_minfeed_v 3 "MinFeed V (R)"
+param _prog_minfeed_w 3 "MinFeed W (R)"
+---
+label "MaxFeed" colorname=#ffa500
+param _prog_maxfeed_x 3 "MaxFeed X (R)"
+param _prog_maxfeed_y 3 "MaxFeed Y (R)"
+param _prog_maxfeed_z 3 "MaxFeed Z (R)"
+param _prog_maxfeed_a 3 "MaxFeed A (R)"
+param _prog_maxfeed_b 3 "MaxFeed B (R)"
+param _prog_maxfeed_c 3 "MaxFeed C (R)"
+param _prog_maxfeed_u 3 "MaxFeed U (R)"
+param _prog_maxfeed_v 3 "MaxFeed V (R)"
+param _prog_maxfeed_w 3 "MaxFeed W (R)"
+
+			

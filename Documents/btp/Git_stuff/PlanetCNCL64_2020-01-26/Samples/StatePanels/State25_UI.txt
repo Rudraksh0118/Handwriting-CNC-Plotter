@@ -1,0 +1,62 @@
+name "UI"
+
+param _isuiready B "IsUIReady (R)"
+param _ui_width 0 "Width (R)"
+param _ui_height 0 "Height (R)"
+
+---
+label "Selected Line" colorname=#ffa500
+param _selected_gcode_line 0 "Number"
+---
+param _selected_gcode B "Is Valid"
+param _selected_gcode_x 3 "X"
+param _selected_gcode_y 3 "Y"
+param _selected_gcode_z 3 "Z"
+param _selected_gcode_a 3 "A"
+param _selected_gcode_b 3 "B"
+param _selected_gcode_c 3 "C"
+param _selected_gcode_u 3 "U"
+param _selected_gcode_v 3 "V"
+param _selected_gcode_w 3 "W"
+
+---
+label "Dlg Tool" colorname=#ffa500
+param _toolnumber_dlg 0 "Tool Number"
+
+---
+label "Dlg Coord" colorname=#ffa500
+param _coord_x_dlg 3 "X"
+param _coord_x_en_dlg B "X Enabled"
+param _coord_y_dlg 3 "Y"
+param _coord_y_en_dlg B "Y Enabled"
+param _coord_z_dlg 3 "Z"
+param _coord_z_en_dlg B "Z Enabled"
+
+param _coord_a_dlg 3 "A"
+param _coord_a_en_dlg B "A Enabled"
+param _coord_b_dlg 3 "B"
+param _coord_b_en_dlg B "B Enabled"
+param _coord_c_dlg 3 "C"
+param _coord_c_en_dlg B "C Enabled"
+
+param _coord_u_dlg 3 "U"
+param _coord_u_en_dlg B "U Enabled"
+param _coord_v_dlg 3 "V"
+param _coord_v_en_dlg B "V Enabled"
+param _coord_w_dlg 3 "W"
+param _coord_w_en_dlg B "W Enabled"
+
+param _coord_rot_dlg 3 "Rot"
+param _coord_rot_en_dlg B "Rot Enabled"
+
+---
+label "Other" colorname=#ffa500
+param _start_loops 0 "Loops"
+param _start_firstline 0 "First Line"
+param _start_lastline 0 "Last Line"
+---
+param _return 3 "Return Value (R)"
+
+
+
+
